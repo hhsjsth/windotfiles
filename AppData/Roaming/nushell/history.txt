@@ -1,0 +1,845 @@
+scoop update
+scoop status
+scoop update
+scoop status
+scoop update lsd github oh-my-posh
+oh-my-posh3 init
+oh-my-posh3
+oh-my-posh
+oh-my-posh -i
+which ln
+scoop list
+zoxide
+cd ~
+ls
+which ls
+lsd
+lsd --all
+lsd -l
+lsd --lst
+lsd --list
+ls
+vim .gitconfig
+nvim .gitconfig
+nvim
+nvim 
+ps
+ps | where cpu > 5
+date now | date to-table
+sys
+echo $PATH
+%PATH
+%PATH%
+echo %PATH%
+echo $curr
+x = 1
+let x = 1
+echo $x
+ranger
+scoop install lf
+echo $env.Path
+^ls
+ls
+ls | save temp.txt
+ls | save ~/temp.txt
+env
+$nu.config-path
+vim $nu.config-path
+nvim $nu.config-path
+$nu.config-path
+$nu.history-path
+explorer.exe C:\Users\gtr\AppData\Roaming\nushell\
+nvim $nu.config-path
+scoop prefix oh-my-posh
+echo 
+echo $(scoop prefix oh-my-posh)
+let posh_path = scoop prefix oh-my-posh
+echo $posh_path
+let posh_path = {scoop prefix oh-my-posh}
+echo $posh_path
+nvim $nu.config-path
+oh-my-posh
+oh-my-posh init
+nvim $nu.config-path
+pwed
+pwd
+nvim $nu.config-path
+oh-my-posh init nu --print
+oh-my-posh init nu
+oh-my-posh init nu D:\scoop\apps\oh-my-posh\current\themes\cobalt2.omp.json
+oh-my-posh init nu --config D:\scoop\apps\oh-my-posh\current\themes\cobalt2.omp.json
+cd ~
+nvim $nu.config-path
+nvim $nu.loginshell-path
+rm $nu.loginshell-path
+nvim $nu.loginshell-path
+nvim $nu.home-path
+nvim $nu.config-path
+update
+upgrade
+nvim $nu.config-path
+vimconf
+echo $nu.config-path
+echo $nu.home-path
+nvim $nu.config-path
+$nu.config-path
+source $nu.config-path
+source C:\Users\gtr\AppData\Roaming\nushell\config.nu
+nvim $nu.config-path
+source C:\Users\gtr\AppData\Roaming\nushell\config.nu
+nvim $nu.config-path
+so
+nvim $nu.config-path
+source C:\Users\gtr\AppData\Roaming\nushell\config.nu
+nvim $nu.config-path
+status
+nvim $nu.config-path
+update-hold siyuan todesk
+nvim $nu.config-path
+let path = $nu.config-path 
+echo path
+echo $path
+nvim $nu.config-path
+vim
+nvim
+nvim $nu.config-path
+scoop instaoo tortoisegit
+scoop install tortoisegit
+xargs
+nvim $nu.config-path
+neo
+neofetch
+scoop install neofetch
+neofetch
+scoop install winfetch
+winfetch
+scoop uninstall winfetch
+scoop install onefetch
+onefetch
+scoop uninstall onefetch
+scoop install cpufetch
+cpufetch
+hexyl NTUSER.DAT
+D:
+ls
+zoxide
+zoxide init --help
+zoxide init nushell | save ~/.zoxide.nu
+nvim $nu.config-path
+$nu.env-path
+vim $nu.env-path
+nvim $nu.config-path
+code .
+z
+zoxide
+update
+upgrade
+oh-my-posh init nu
+$nu.config-path
+nvim $nu.config-path
+scoop install starship
+starship init nu
+starship init nu | save 
+$nu.config-path
+$nu.config-path | clip.exe
+starship init nu | save C:\Users\gtr\AppData\Roaming\nushell\
+starship init nu | save C:\Users\gtr\AppData\Roaming\nushell
+cd C:\Users\gtr\AppData\Roaming\nushell\
+starship init nu | save ./starshipInit.nu
+vimconf
+nvim $nu.config-path
+$nu.config-path
+$nu.temp-path
+$nu.home-path
+$nu.loginshell-path
+$nu.os-info
+$nu.pid
+$nu.scope
+$env
+nvim $nu.config-path
+node
+scoop install elvish
+update
+scoop install elvish
+scoop status
+scoop install go
+scoop list
+scoop uninstall vim
+scoop list
+z 
+fzf
+scoop list
+nvim $nu.env-path
+iiiiiiiiiiiiiiiiiiiiiiiiiiii
+scoop lsit
+scoop list
+scoop update
+scc
+z code
+btop
+bt
+btm
+btm --help
+btm -b
+scoop install btop
+btop
+update
+mkdir -p ~/.config && touch ~/.config/starship.toml
+ touch ~/.config/starship.toml
+# Get editor completions based on the config schema~/.config/starship.toml
+"$schema" = 'https://starship.rs/config-schema.json'
+# Inserts a blank line between shell prompts
+add_newline = true
+# Replace the "❯" symbol in the prompt with "➜"
+[character] # The name of the module we are configuring is "character"
+success_symbol = "[➜](bold green)" # The "success_symbol" segment is being set to "➜" with the color "bold green"
+# Disable the package module, hiding it from the prompt completely
+[package]
+nvim ~/.config/starship.toml
+D:
+z rust
+cd codeLearn\rust\helloRust\
+nvim ~/.config/starship.toml
+cd D:\codeLearn\rust\helloRust\
+gitui
+rust --version
+rustc --version
+cargo --version
+nvim ~/.config/starship.toml
+nvim 
+whoami
+gtrlaptop\gtr
+cd D:
+ls
+cd codeleanr
+cd codeLearn\c\cmaketest\
+ls
+la
+man bat
+tldr bat
+fz
+fzf
+ls
+cd ..
+ls
+fzf 
+cd D:
+D:
+ls
+fzf
+cd repo\leetcode\
+ls
+gitui
+history
+history | fzf
+history
+fd
+cd ..
+..
+fd
+rustc --version
+list
+update
+scoop uninstall oh-my-posh
+ls
+cd ~
+ls
+cd D:
+ls
+cd scoop\
+cd shims\
+cd E:
+cd 迅雷下载\
+cd ..
+cd `OneDrive - officee5developer\`
+ls
+cd 下载\杂图\相关\
+cd D:
+cd -
+-
+--
+-1
+-2
+-3
+1 + 1
+2 + 2
+asdf
+asdf + asdfa
+"adfasd" + "asdfads"
+1 + 1
+cd D:
+cd -
+ls
+ra
+ranger
+scoop install lf
+lf
+ls
+cd ..
+lf
+cd ..
+ls
+cd ..
+lf
+nvim ~/.config/starship.toml
+pwd
+ls
+ls | grep js
+cd ..
+D:
+ls
+~
+ls | grep package
+^ls | grep package
+^ls | ^grep package
+ls | rg package
+vim package.json
+nvim package.json
+nvim package-lock.json
+rm package.json package-lock.json
+node_modules
+cd node_modules\
+ls
+cd ..
+nvim package-lock.json
+nvim ~/.config/starship.toml
+ls
+pwd
+ls
+nvim ~/.config/starship.toml
+cd D:\codeLearn\
+ls
+cd c
+ls
+cd cmake
+cd cmaketest\
+ls
+nvim ~/.config/starship.toml
+cd -
+cd D:\codeLearn\c\cmaketest\
+ls
+nvim ~/.config/starship.toml
+ls
+z rust
+zoxide
+nvim ~/.config/starship.toml
+ls
+cd D:\codeLearn\c\cmaketest\
+ls
+nvim ~/.config/starship.toml
+ls
+^ls
+^lsd
+nvim ~/.config/starship.toml
+;q
+ls
+lsd
+lsd --list
+sl
+ls-df 
+ls 
+nvim ~/.config/starship.toml
+fd
+nvim ~/.config/starship.toml
+fd
+gcc 
+gcc-o
+neofetch
+ls
+nvim ~/.config/starship.toml
+which ln
+cd D:\repo
+ls
+cd vscode
+git
+cd ..
+cd vscode
+ls
+cd D:\repo
+cd vscode
+ls
+gitui
+ls
+gitui
+git checkout HEAD^
+git checkout ORIG_HEAD
+git checkout main
+ls
+git status
+git checkout main
+cd ..
+ls
+cd font
+cd ..
+cd leetcode
+cd ..
+ls
+cd vscode
+fzf
+fd
+df
+fd
+which fd
+scoop info fd
+scoop cat fd
+:q
+ls
+nvim $nu.env-path
+scoop install rufus
+nvim ~/.config/starship.toml
+ipconfig
+ssh gtr@gtr-arch
+gtr gtr@192.168.31.230
+ssh gtr@192.168.31.230
+ipconfig
+arp -=
+arp -a
+ssh gtr@192.168.31.211
+ping 192.168.31.211
+ssh gtr@192.168.31.211
+scoop install ssh-copy-id
+ssh gtr@192.168.31.211
+ssh -v gtr@192.168.31.211
+arp -a
+ping 192.168.31.211
+tracert 192.168.31.211
+btm
+tracert 192.168.31.211
+ssh gtr@192.168.31.211
+ping 192.168.31.211
+ping 192.168.31.211 -h
+ping 192.168.31.211 -n 100
+btop
+nvim ~/.config/starship.toml
+ls
+nvim ~/.config/starship.toml
+scoop install elvish
+certutil
+wsl --shutdown
+update
+scoop install elvish
+scoop uninstall levish
+scoop uninstall elvish
+path
+config nu
+nvim $nu.config-path
+$nu.env-path
+nvim $nu.env-path
+fzf
+scoop info fzf
+cd $(fzf)
+cd $env.fzf
+fzf
+echo $env.fzf
+fzf
+config nu
+nvim $nu.env-path
+config nu
+config
+config env
+config -h
+config nu
+env
+ls
+cd D:\repo\vcpkg\
+git checkout -p
+git 
+gitui
+code .
+touch gitLearn.md
+nvim gitLearn.md
+scoop install texlive-full
+zshconf
+nu cnofig
+nu config
+config nu
+config reset 
+config nu
+$nu.env-path
+$nu.env-path | clip.exe
+nvim .env.nu.un~
+nvim
+nvim ~/.config/starship.toml
+ls
+cd D:\repo\vcpkg\
+nvim
+nvim .
+nvim 
+nvim .
+nvim 
+cd ..
+ls
+cd leetcode\
+ls
+nvim .
+cd D:
+rg ncdu
+rg ncdu | save temp.txt
+nvim temp.txt
+code temp.txt
+nvim
+nvim 54.螺旋矩阵.cpp
+git log lg
+git lg
+git revert HEAD
+ls
+nvim sample.txt
+gitui
+code .
+git revert HEAD
+ls
+nvim sample.txt
+git revert HEAD^^
+nvim sample.txt
+git lg
+git revert f5e444f
+nvim sample.txt
+git reset 87fa --hard
+git lg
+git revert 3c8a06e
+ls
+git status
+git status -s
+git lg
+ls
+:q
+gitui
+ls
+update
+winget upgrade --all
+nvim .vimrc
+config nu
+sl
+ls
+la
+ls | save temp.txt
+ls > temp.txt
+lsd
+^ls
+which ^ls
+^ls -l
+ls
+update
+shutdown /s /t 7200
+which shutdown
+shutdown /s /t 10800
+shutdown /s /t 14400
+./env
+./env --help
+./env -h
+./env.exe -h
+./env --help
+./env.exe
+.\env.exe
+./ln
+^ln -h
+^ln --help
+ls
+brew list
+ipcnofig
+ipconfig
+update
+upgrade
+scoop uninstall v2rayn
+scoop uninstall xray
+scoop list
+scoop uninstall v2ray
+scoop install v2rayn-core
+scoop intall v2rayn
+scoop install v2rayn
+scoop uninstall v2rayn-core
+scoop list
+scoop uninstall v2rayn v2ray xray
+scoop list
+scoop install v2rayn
+scoop uninstall v2rayn v2ray xray
+scoop list
+scoop install v2rayn-core
+upgrade
+scoop update
+scoop uninstall v2rayn-core
+scoop install v2rayn-core
+scoop uninstall v2rayn-core
+update
+upgrade
+scoop install docker
+docker
+list
+scoop list
+git config --global gc.auto 0
+docker pull manjarolinux/base
+docker-machine create default
+scoop install docker-machine
+winget upgrade --all
+scoop uninstall dandanplay
+scoop install dandanplay
+wsl --update
+wsl --version
+wsl -v
+wsl --version
+./wsl.exe --version
+wsl -l -v
+wsl --update
+touch 时间点.txt
+update
+touch 时间点.txt
+nvim 时间点.txt
+nvim 各部番剧时间点.txt
+update
+scoop hold aliyundrive
+scoop hold scc
+scoop install global
+udpate
+update
+fzf
+status
+update
+scoop update AutoDarkMode-Portable fzf googlechrome gsudo
+update
+scoop update sh
+update-hold scc
+which update-hold
+config nu
+update-hold scc
+config nu
+shutdown /s /t 14400
+update
+update-hold siyuan todesk
+scoop install SourceNavigator-NG
+nvim
+scoop instal vscode-insiders-portable
+scoop install v2rayn-rules-dat
+scoop uninstall v2rayn-rules-dat
+scoop uninstall v2ray
+scoop uninstall v2rayn
+scoop install v2rayn-rules-dat
+scoop list
+update
+scoop update neovim
+nvim
+env
+config env
+config nu
+setproxy
+nuproxy
+config nu
+nuproxy
+echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>echo let-env http_proxy = http://127.0.0.1:10809 ; let-env https_proxy = http://127.0.0.1:10809)"<\n>_proxy = http://127.0.0.1:10809)"
+let-env http_proxy = http://127.0.0.1:10809
+let-env http_proxy = (http://127.0.0.1:10809)
+let-env http_proxy = "http://127.0.0.1:10809"
+nvim
+scoop install Snipaste-Portable
+config nu
+nuproxy
+config nu
+nuproxy
+nvim config.YAML
+config nu
+btop
+cpufetch
+neofetch
+btm
+cpufetch
+nuproxy
+python
+scoop install python3
+scoop install python
+nvim
+nvim 
+nuproxy
+nvim 
+ipconfig
+scoop install potplayer
+scoop install installedcodec
+scoop uninstall installedcodec
+scoop install lavfilters
+sudo scoop install lavfilters
+update
+scoop update archwsl
+statys
+status
+scoop update tealdeer
+scoop cleanup *
+config nu
+wsl --shutdown
+arch -v
+arch -
+arch help
+arch config --wsl-version 2
+wsl -l -v
+wsl get --append-path
+arch get --append-path
+arch help | clip
+arch help | clip.exe
+arch help 
+config n
+config nu
+echo (config nu)
+code $nu.config-path
+config nu
+status
+update-hold scc
+status
+update-hold scc
+scoop config 
+scoop config help
+scoop help
+scoop config proxy 127.0.0.1:7890
+update-hold scc
+scoop update
+scoop cache rm *
+scoop uninstall scc
+scoop install scc
+scoop list
+scoop install scc
+scoop uninstall scc
+scoop cache rm scc
+scoop install scc
+aria2
+aria
+aria2c
+aria2c -h
+scoop install scc
+scoop config proxy 127.0.0.1:10809
+scoop list
+which z
+which zoxide
+^ls
+which ^ls
+scoop list
+scoop uninstall coreutils
+scoop install coreutils-rs
+coreutils
+which ^cp
+whoami
+coreutils ls
+scoop install coreutils
+scoop list
+update
+nvim
+nuproxy
+nvim
+rg
+neovim
+nvim
+hx
+nvim
+scoop list
+3600*6
+3600+6
+cd D:
+ls
+cd repo
+ls
+cd vostok564\
+ls
+code .
+scc .
+update
+ls
+upgrade
+update
+ventoy
+update
+upgrade
+update
+update-hold siyuan
+update
+btop
+neofetch
+cf
+cpufetch
+scooupd
+update
+upgrade
+scoop list
+update
+cargo --version
+rustup
+which rustup
+which rustc
+which cargo
+scoop list
+clang --version
+clangd --version
+ls
+clangd --version
+update
+upgrade
+\\\
+scoop uninstall altsnap
+scoop install altsnap
+scoop list
+scoop install v2rayn-rules-dat
+grex
+vcpkg
+neofetch
+cpufetch
+wsl
+ls
+wsl
+update
+upgrade
+update
+config nu
+which config
+confin nu
+cd "C:\Users\gtr\AppData\Roaming\nushell"
+cd C:\Users\gtr\AppData\Roaming\nushell
+starship init nu | save ./starshipInit.nu
+update
+winget upgrade --all
+free -m
+btm
+scoop install tar
+nvim
+scoop uninstall texlive-full
+topgrade
+npm config set registry https://npmmirror.com/
+topgrade
+setproxy
+winget upgrade --all
+cd D:repo
+ls
+cd ccls
+ls
+cmake -H. -BRelease -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH=/path/to/clang+llvm-xxx
+cmake -H. -BRelease -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH="D:\scoop\apps\llvm\15.0.4\bin"
+cmake -H. -BRelease -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_COMPILER=clang-cl -DCMAKE_PREFIX_PATH="D:\scoop\apps\llvm\15.0.4\bin"
+cmake -H. -BRelease -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_PREFIX_PATH="D:\scoop\apps\llvm\15.0.4\bin"
+cmake -H. -BRelease -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_COMPILER=clang-cl -DCMAKE_PREFIX_PATH="D:\scoop\apps\llvm\15.0.4\bin"
+cd D:repo
+cd ccls
+cmake -H. -BRelease -G Ninja -DCMAKE_CXX_FLAGS=-D__STDC_FORMAT_MACROS
+cd ..
+rm ccls
+rm ccls -rf
+ls
+git clone --depth=1 --recursive https://github.com/MaskRay/ccls
+cd ccls
+ls
+cmake -H. -BRelease -G Ninja -DCMAKE_CXX_FLAGS=-D__STDC_FORMAT_MACROS
+ninja -C Release
+ls
+cd Releas
+cd Release\
+ls
+pwd
+scoop list
+scoop update
+scoop status
+rustup-init.exe
+upgrade
+arch
+ls
+brew list
+scoop list
+update
+upgrade
+update
+scoop status
+scoop uninstall mingw llvm-mingw
+scoop status
+scoop help
+ls

@@ -1,0 +1,3460 @@
+Set-ExecutionPolicy RemoteSigned -scope CurrentUser
+$env:SCOOP='D:\scoop'
+[environment]::setEnvironmentVariable('SCOOP',$env:SCOOP,'User')
+$env:SCOOP_GLOBAL='D:\scoop\GLOBAL'
+[environment]::setEnvironmentVariable('SCOOP_GLOBAL', $env:SCOOP_GLOBAL, 'User')
+irm get.scoop.sh -Proxy 'http://127.0.0.1:7890' | iex
+winget
+winget install Microsoft.VC++2015-2022Redist-x64
+scoop reset *
+git config --global --add safe.directory D:/scoop/buckets/main
+git config --global --add safe.directory D:/scoop/apps/scoop/current
+sudo scoop uninstall FiraCode-NF JetBrainsMono-NF Delugia-Nerd-Font-Complete Hack-NF sarasa-mono-sc-nerd -g
+sudo scoop install FiraCode-NF JetBrainsMono-NF Delugia-Nerd-Font-Complete Hack-NF sarasa-mono-sc-nerd
+sudo New-Item -ItemType SymbolicLink -Path "C:\Users\gtr\Documents\PowerShell\Microsoft.PowerShell_profile.ps1" -Target "D:\BaiduSyncdisk\Configuration\PowerShell\Microsoft.PowerShell_profile.ps1"
+scoop list
+update
+git config --global --add safe.directory D:/scoop/buckets/main
+git config --global --add safe.directory D:/scoop/apps/scoop/current
+update
+winget upgrade --all
+scoop list
+wsl --update
+scoop install dandanplay
+wsl --update
+sudo wsl --update
+wsl --shutdown
+scoop uninstall archwsl
+scoop install archwsl
+wsl --set-default-version 2
+wsl --set-default-version 2 -d arch
+wsl -l -v
+wsl --shutdown
+wsl --set-default-version 2 -d arch
+wsl -l -v
+wsl --set-default-version 2 -d Arch
+wsl -l -v
+wsl -u Debian
+wsl 
+wsl --help
+wsl --unregister Debian
+wsl 
+wsl --unregister Arch
+scoop uninstall archwsl\
+scoop install archwsl
+wsl -l -v
+wsl --unregister Arch
+wsl -l -v
+scoop uninstall archwsl
+scoop install archwsl
+scoop uninstall archwsl
+wsl --unregister Arch
+scoop cache rm Archwsl
+scoop install archwsl
+scoop uninstall archwsl
+winget upgrade --all
+scoop install archwsl
+wsl --unregister Arch
+wsl -l -v
+scoop uninstall archwsl
+scoop list
+scoop uninstall firefox
+scoop install firefox
+node
+python
+wt
+scoop install archwsl
+git config --global --add safe.directory D:/scoop/buckets/main
+git config --global --add safe.directory D:/scoop/apps/scoop/current
+scoop uninstall archwsl
+update
+git config --global --add safe.directory D:/scoop/buckets/apps
+update
+scoop uninstall archwsl
+wsl --unregister Arch
+scoop uninstall archwsl
+wsl -l -v
+wsl --shutdown
+scoop uninstall archwsl
+cd -
+scoop uninstall archwsl
+status
+scoop hold cmake
+scoop update googlechrome-portable_42wim
+scoop uninstall googlechrome-portable_42wim
+scoop info GoogleChromePortable
+scoop info GoogleChrome-Portable
+scoop install googlechrome
+scoop list
+scoop update
+update
+scoop install archwsl
+arch config --default-user gtr
+Recuva
+scoop install Recuva
+scoop list
+update
+exec 
+pwsh
+exit
+exec pwsh
+cmd pwsh
+wsl -l -v
+clangd
+clang
+clang++
+wsl --proxy
+export https_proxy="socks5://127.0.0.1:7890"
+pwd
+cd "D:\repo\leetcode"
+git config --global user.name gutaorui
+git config --global user.email gutaorui@outlook.com
+ls
+la
+rm .git
+ls
+scoop install github
+git config --global https.proxy http://127.0.0.1:7890
+git config --global http.https://github.com.proxy socks5://127.0.0.1:7890
+vim ~/.gitconfig
+cd "D:\BaiduSyncdisk\Configuration\dotfile"
+mklink "C:\Users\gtr\.gitconfig" "D:\BaiduSyncdisk\Configuration\dotfile\.gitconfig"
+cmd
+git clone git@github.com:microsoft/vcpkg.git
+cd D:\repo
+ls
+git clone git@github.com:microsoft/vcpkg.git
+ls
+code $PROFILE
+git clone git@github.com:microsoft/vcpkg.git
+ls
+scoop install Obsidian
+cd "D:\repo"
+ls
+git clone git@github.com:microsoft/vcpkg.git
+rm .\vcpkg\ 
+sudo rm .\vcpkg\ 
+git clone git@github.com:microsoft/vcpkg.git
+rm vcpkg
+git config --global http.proxy http://127.0.0.1:58591
+git config --global https.proxy https://127.0.0.1:58591
+cd "D:\repo"
+ls
+git clone git@github.com:microsoft/vscode.git
+git config --global http.https://github.com.proxy socks5://127.0.0.1:7890
+ssh -T git@github.com
+cd "D:\repo"
+git clone git@github.com:microsoft/vscode.git
+ssh -T git@github.com
+cd "D:\repo"
+git clone git@github.com:microsoft/vscode.git
+ssh -T git@github.com
+connect
+git clone git@github.com:microsoft/vscode.git
+cd "D:\scoop\apps\git\2.37.1.windows.1\mingw64\bin"
+./connect
+cd D:\repo
+ls
+git clone git@github.com:microsoft/vscode.git
+ssh -T git@github.com
+./connect
+ssh -T git@github.com
+git clone git@github.com:microsoft/vscode.git
+cd "D:\scoop\apps\git\2.37.1.windows.1\mingw64\bin"
+ls
+./connect
+./connect -H 127.0.0.1:7890
+cd "D:\scoop\apps\git\2.37.1.windows.1\mingw64\bin"
+ls
+./connect -H 127.0.0.1:7890
+ssh -T git@github.com
+git config --global color.ui auto
+ssh -T git@github.com
+"D:\scoop\apps\git\2.37.1.windows.1\mingw64\bin\connect.exe" -S 127.0.0.1:7890 -a none %h %p
+D:\scoop\apps\git\2.37.1.windows.1\mingw64\bin\connect.exe -S 127.0.0.1:7890 -a none %h %p
+ssh -T git@github.com
+git clone git@github.com:microsoft/vscode.git
+scoop install WindowsTerminalPreview-Portable
+scoop install lxgwwenkai
+scoop install LXGWWenKaiMono
+scoop install IObitUnlockerPortable
+scoop uninstall IObitUnlockerPortable
+scoop install iobit-unlocker
+scoop uninstall iobit-unlocker
+scoop uninstall IObitUnlockerPortable
+scoop install IObitUnlockerPortable
+scoop uninstall IObitUnlockerPortable
+ipconfig
+scoop list
+update
+git config --global http.https://github.com.proxy http://127.0.0.1:7890
+update
+scoop bucket rm apps
+scoop bucket add apps https://github.com/kkzzhizhou/scoop-apps
+status
+scoop uninstall innounp
+scoop install innounp
+scoop cache rm innounp
+scoop install innounp
+update
+scoop bucket rm apps
+scoop bucket add apps https://github.com/kkzzhizhou/scoop-apps
+update
+scoop bucket rm main
+scoop bucket add main
+status
+scoop uninstall innounp
+scoop install innounp
+scoop uninstall innounp
+scoop status
+scoop update ccleaner
+scoop status
+scoop uninstall lxgwwenkaimono
+scoop install LXGWWenKaiMono
+scoop cache rm LXGWWenKaiMono
+scoop install LXGWWenKaiMono
+scoop cache rm LXGWWenKaiMono
+scoop install LXGWWenKaiMono
+scoop cache rm LXGWWenKaiMono
+$Env:http_proxy="http://127.0.0.1:7890";$Env:https_proxy="http://127.0.0.1:7890"
+scoop install LXGWWenKaiMono
+scoop list
+scoop install WindowsTerminalPreview-Portable
+brew list
+scoop list
+status
+scoop list
+scoop update
+scoop status
+scoop update firefox
+upgrade
+brew list
+scoop config proxy 127.0.0.1:7890
+upgrade
+scoop list
+scoop uninstall winlibs-mingw-llvm-ucrt
+scoop install winlibs-mingw-ucrt
+scoop uninstall winlibs-mingw-ucrt
+scoop install mingw
+gdb
+which gdb
+scoop install llvm
+clangd
+which clangd
+which clang
+clangd
+which clangd
+clangd --version
+cmake
+which cmake
+cmake test
+g++ -o main main.cpp
+./main
+scoop uninstall llvm
+scoop install mingw
+scoop uninstall mingw
+scoop uninstall winlibs-mingw-llvm-ucrt
+scoop install winlibs-mingw-llvm-ucrt
+update
+du
+upgrade dandanplay
+brew list
+scoop uninstall LXGWWenKaiMono
+scoop install LXGWWenKaiMono
+status
+update-hold
+update-hold cmake git oh-my-posh
+scoop uninstall vagrant
+git config --global credential.helper manager-core
+scoop list
+update-hold cmake git oh-my-posh
+status
+scoop updatge
+scoop update
+status
+scoop cleanup *
+scoop list
+cd D:
+ls
+cd .\BaiduNetdiskDownload\
+ls
+cd 
+code $PROFILE
+scoop list
+cd D:
+ls
+cd '.\$RECYCLE.BIN\'
+cd ..
+cd .\BaiduNetdiskDownload\
+ls
+scoop list
+git clone https://github.com/microsoft/vscode.git
+ls
+update
+scoop list
+scoop update
+wsl -l -v
+wsl -l
+scoop list
+scoop uninstall mobaxterm
+scoop uninstall MicrosoftYaHeiMono
+sudo scoop uninstall MicrosoftYaHeiMono
+scoop list
+scoop uninstall putty
+nvim
+nvim`
+
+nvim
+vim
+gx
+hx
+scoop list
+scoop update
+pwsh
+exit
+brew list
+scoop list
+pwsh
+bash
+zsh
+arch
+
+exit
+exit
+exit
+scoop list
+update
+update-hold oh-my-posh
+scoop install tabby
+scoop install warp
+warp-packer
+warp-packer -a windows-x64
+scoop uninstall warp
+brew list
+scoop uninstall LXGWwenkaimono
+scoop install GIMP-Portable
+scoop install paint.net
+scoop uninstall GIMP-Portable
+ipconfig
+scoop list
+update
+ update
+scoop install alacritty
+alacritty
+scoop list
+winget upgrade --all
+winget upgrade
+winget 
+winget list
+winget upgrade --all
+scoop status
+update-hold oh-my-posh
+unhold oh-my-posh
+scoop unhold oh-my-posh
+scoop list
+scoop unhold tabby git cmake
+scoop list
+upgrade
+fzf
+vim $(fzf)
+vim ~/.vimrc
+scoop install rust
+update
+scoop install rust
+scoop install ripgrep
+rg
+rg test
+ls
+rg map
+rg
+rg umap
+ls
+rg map
+vim ~/.vimrc
+rg ripgrep
+rg innomap
+rg 'fn write\('
+rg 'map'
+cp .vimrc vimrc
+rg 'map'
+rust
+scoop install rust
+ru
+ra
+ranger
+rustc
+update
+upgrade
+notepad
+code $PROFILE
+. $PROFILE
+rc
+rustc
+rust
+rustc
+brew list
+scoop update
+scoop info alacrity
+scoop info alacritty
+scoop list
+update
+mklink %APPDATA%\alacritty\alacritty.yml D:\scoop\persist\alacritty\alacritty.yml
+cmd
+scoop list
+scoop update
+update
+brew list
+wsl
+cd D:
+ls
+cd .\codeLearn\
+ls
+mkdir rust
+cd rust
+ls
+mkdir hello
+cd hello
+cd ..
+ls
+rm hello
+cargo hello
+cargo new hello
+ls
+cd hello
+ls
+code .
+rustc print sysroot
+rustc --print sysroot
+scoop install rust-analyzer
+ls
+scoop install rustup
+scoop list
+scoop uninstall rustup rust-analyzer
+scoop uninstall rust
+$Env:http_proxy="http://127.0.0.1:7890";$Env:https_proxy="http://127.0.0.1:7890"
+scoop install rustup
+scoop list
+scoop uninstall rustup
+scoop uninstall rustup rust-analyzer
+scoop uninstall rust
+scoop install rustup
+rg --hidden map
+rip --hidden innoremap
+rg --hidden innoremap
+rg --hidden "innoremap"
+rg "innoremap"
+rg innoremap
+cd ..
+cd -
+ls
+rg innoremap
+rustc
+cargo --version
+rg innoremap
+scoop list
+update
+scoop bucket rm main
+scoop bucket add main
+scoop list
+upgrade
+cargo --version
+cargo 
+cargo
+h
+hx
+h
+hx
+hx
+hx config.toml
+sudo New-Item -ItemType SymbolicLink -Path %AppData%\helix\config.toml -Target "config.toml"
+sudo New-Item -ItemType SymbolicLink -Path "%AppData%\helix\config.toml" -Target "./config.toml"
+sudo New-Item -ItemType SymbolicLink -Path "%AppData%\helix\config.toml" -Target "config.toml"
+mkdir %AppData%\helix\
+rm .\%AppData%\
+ls
+mkdir "%AppData%\helix\config.toml"
+rm .\%AppData%\
+sudo New-Item -ItemType SymbolicLink -Path "$AppData\helix\config.toml" -Target "config.toml"
+sudo New-Item -ItemType SymbolicLink -Path "C:\Users\gtr\AppData\Roaming\helix\config.toml" -Target "config.toml"
+hx
+ls
+sudo New-Item -ItemType SymbolicLink -Path "C:\Users\gtr\AppData\Roaming\helix\config.toml" -Target .\config.toml
+hx
+cmd
+ls
+hx
+ls
+cd ..
+cd D:
+ls
+D:
+cd D:
+ls
+..
+cd ..
+cd .\codeLearn\
+ls
+cd rust
+ls
+cd hello
+hx
+hx .
+hx .\.git\
+hx .\Cargo.toml
+hx $env:APPDATA\helix\config.toml
+$HOME
+cmd
+scoop install wezterm
+scoop install finalshell
+scoop uninstall finalshell
+scoop cache rm finalshell
+scoop install finalshell
+scoop uninstall finalshell
+brew list
+scoop list
+scoop update
+scoop list
+tree
+scoop list
+finalshell
+scoop install finalshell
+scoop uninstall finalshell
+wsl
+node
+npm install alacritty-themes
+npm --registry https://npmreg.proxy.ustclug.org/ install alacritty-themes
+hx
+scoop list
+lsd
+scoop install lsd
+hx $PROFILE
+ls
+ls -h
+ls --help
+ls -l
+gh run list
+scoop install gh
+gh run list
+scoop info gh
+npm --registry=https://registry.npmmirror.com install alacritty-themes
+ls
+alacritty
+alacritty-theme
+npm --registry=https://registry.npmmirror.com install -g alacritty-themes
+alacritty-theme
+npm uninstall -g alacritty-themes
+alacritty-themes
+npm install -g alacritty-themes
+npm --registry=https://registry.npmmirror.com install -g alacritty-themes
+alacritty-themes
+npm uninstall alacritty-themes
+alacritty-themes
+alacritty-themes --create
+rm C:\Users\gtr\AppData\Roaming\alacritty\alacritty.yml
+npm config set registry https://registry.npmmirror.com
+scoop install terminus
+scoop install terminus
+scoop update
+scoop bucket rm apps
+scoop bucket add apps https://github.com/kkzzhizhou/scoop-apps
+scoop list
+scoop install terminus
+list
+dir
+ls
+ls -l
+ls -a
+ls -l
+wsl
+brew list
+scoop list
+scoop list
+scoop install kitty
+scoop uninstall kitty
+scoop install scc
+scc
+cd D:
+ls
+cd D:
+cd ..
+ls
+cd .\codeLearn\
+scc
+cloc
+scoop install cloc
+cloc
+sloc -h
+cloc -h
+cloc --help
+scoop info cloc
+cloc .
+scc
+cd ..
+cloc .\codeLearn\
+scc '.\$RECYCLE.BIN\'
+scc .\codeLearn\
+rustup
+rust show
+rustup show
+cargo
+cargo --version
+cargo --version
+cd D:\codeLearn\rust\
+ls
+rm hello
+explorer.exe .
+cargo new hello
+ls
+code hello
+ & 'c:\Users\gtr\.vscode\extensions\vadimcn.vscode-lldb-1.7.4\adapter\codelldb.exe' 'terminal-agent' '--connect=54210' 
+ & 'c:\Users\gtr\.vscode\extensions\vadimcn.vscode-lldb-1.7.4\adapter\codelldb.exe' 'terminal-agent' '--connect=54232' 
+rust
+rustc
+cargo --version
+sudo rm .\hello\
+ls
+cargo new hello
+code hello
+ & 'c:\Users\gtr\.vscode\extensions\vadimcn.vscode-lldb-1.7.4\adapter\codelldb.exe' 'terminal-agent' '--connect=55575' 
+ & 'c:\Users\gtr\.vscode\extensions\vadimcn.vscode-lldb-1.7.4\adapter\codelldb.exe' 'terminal-agent' '--connect=55591' 
+helix
+helix
+hx
+scoop install nushell
+nushell
+nsh
+nu
+scoop install AutoDarkMode-Portable
+scoop list
+scoop update
+scoop status
+nu
+hx 外企.md
+scoop install gitui
+update
+scoop install gitui
+gitui
+ls
+cd D:
+ls
+cd D:
+cd D:\codeLearn\
+ls
+cd rust
+cd hello
+gitui
+scoop install tldr
+tldr musl
+scoop install siyuan
+tldr musl
+scoop install siyuan
+winget upgrade --all
+hx 计算机网络学习笔记.md
+code .\计算机网络学习笔记.md
+scoop list
+scoop update
+update
+upgrade
+alacritty-themes
+wsl
+scoop uninstall terminus
+scoop list
+tabby
+scoop uninstall tabby
+winget upgrade --all
+eho $PROFILE
+echo $PROFILE
+sudo New-Item -ItemType SymbolicLink -Path "C:\Users\gtr\Documents\PowerShell\" -Target "D:\BaiduSyncdisk\Configuration\Develop\PowerShell"
+scoop install koodo-reader
+sudo New-Item -ItemType SymbolicLink -Path "~\.gitconfig" -Target "D:\BaiduSyncdisk\Configuration\Develop\.gitconfig"
+scoop install koodo-reader
+scoop uninstall koodo-reader
+scoop install KoodoReader-Portable
+New-Item -ItemType SymbolicLink -Path "~\.vimrc" -Target "D:\BaiduSyncdisk\Configuration\Develop\vim\.vimrc"
+sudo New-Item -ItemType SymbolicLink -Path "~\.vimrc" -Target "D:\BaiduSyncdisk\Configuration\Develop\vim\.vimrc"
+scoop list
+scoop install xmind
+scoop uninstall xmind
+scoop install xmind
+scoop cache rm xmind
+scoop install xmind
+scoop cache rm xmind
+scoop install xmind
+scoop install xmind -h
+scoop -h
+scoop install bat
+scoop install -h
+scoop install xmind -s
+scoop install bat
+scoop cat bat
+scoop bat bat
+scoop list
+scoop 
+scoop cat bat
+bat .\_viminfo
+bat .\.cargo\
+bat .\.gitconfig
+scoop cat -h
+scoop cat cheat
+scoop config -h
+scoop config cat_style 'bat'
+scoop cat bat
+scoop config cat_style bat
+scoop cat bat
+scoop config -h
+scoop cat bat
+scoop cat bat --style bat
+scoop cat bat --style cat
+scoop cat bat --style 
+scoop cat bat --style bat
+scoop cat bat --style bat.exe
+scoop cat bat --style "bat"
+scoop config -h
+scoop cat python
+scoop cat python --style="bat" 
+scoop cat python --style="bat"
+scoop cat python --style=bat
+scoop list
+scoop config -h
+scoop config 
+scoop config -h
+scoop install bat
+scoop config cat_style bat
+scoop install bat
+scoop config cat_style bat
+scoop update
+scoop bat python
+scoop cat python
+scoop config cat_style non_empty
+scoop cat python
+scoop cat bat
+scoop config cat_style 
+scoop config cat_style abt
+scoop config cat_style bat
+scoop config cat_style 
+scoop config cat_style ''
+scoop config cat_style 
+scoop cat bat
+scoop cat --style bat python
+scoop cat --style=bat python
+scoop config cat_style bat
+scoop cat python
+scoop config cat_style "grid,numbers"
+scoop cat python
+scoop config cat_style -h
+scoop config cat_style "grid,numbers"
+bat --help
+scoop config cat_style "grid,numbers,rule"
+scoop cat python
+scoop config
+scoop cat python
+scoop list
+update
+scoop install lxgwwenkaimono
+scoop install zoxide
+tldr zoxide
+sl
+ls
+ll
+ls -la
+scoop install tokei
+cd D:
+ls
+cd ..../
+cd ..
+cd D:
+ls
+cd .\codeLearn\
+ls
+tokei
+bottom
+btm
+bottom.json
+scoop cat bottom
+scoop install  bottom
+btm
+btm
+scoop install grex
+scoop install delta
+fzf
+cd D:
+cd .\.labuladong\
+cd D:
+sudo New-Item -ItemType SymbolicLink -Path "~\.vimrc" -Target "D:\BaiduSyncdisk\Configuration\Develop\vim\.vimrc"
+sudo New-Item -ItemType SymbolicLink -Path "C:\Users\gtr\Documents\PowerShell\Microsoft.PowerShell_profile.ps1" -Target "D:\BaiduSyncdisk\Configuration\PowerShell\Microsoft.PowerShell_profile.ps1"
+scoop install coreutils
+ls
+which rm
+sudo New-Item -ItemType SymbolicLink -Path "C:\Users\gtr\.config\scoop" -Target "D:\BaiduSyncdisk\Configuration\Develop\scoop\"
+scoop list
+scoop config cat-style
+scoop config cat_style
+which scoop
+winget upgrade --all
+scoop install hexyl
+update
+upgrade
+status
+scoop hold wezterm
+scoop hold siyuan
+scoop install sd
+sd
+scoop install LinkShellExtension
+scoop uninstall LinkShellExtension
+winget search redist
+scoop list
+scoop hold winlibs-mingw-llvm-ucrt
+scoop install speedtest-cli
+scoop install duf
+duf
+speedtest
+git clone https://github.com/microsoft/vscode.git
+ls
+git clone git@github.com:microsoft/vscode.git
+scoop install iobit-unlocker
+scoop list
+sudo New-Item -ItemType SymbolicLink -Path "C:\Users\gtr\.config\scoop" -Target "D:\BaiduSyncdisk\Configuration\Develop\scoop\"
+cd "D:\BaiduSyncdisk\Configuration\Develop"
+sudo New-Item -ItemType SymbolicLink -Path "C:\Users\gtr\.ssh" -Target "D:\BaiduSyncdisk\Configuration\Develop\.ssh\"
+git clone git@github.com:microsoft/vscode.git
+scoop list > temp.txt
+code .\temp.txt
+git --version
+git 
+duf
+du
+update
+scoop info gh
+gh 
+scoop uninstall tldr
+scoop install tealdeer
+cd D:\codeLearn\
+scc
+tokei
+zoxide
+zoxide D:\codeLearn\c\
+zoxide D:\codeLearn\rust\
+zoxide rust
+zoxide
+scoop install aliyun
+scoop uninstall aliyun
+scoop install aliyundrive
+z .\rust\
+which z
+z rust
+scoop info zoixode
+scoop info zoxide
+scoop install whynotwin11
+scoop install whynotwin11-portable
+git config --global alias.lg "log --oneline --decorate --graph --all"
+update
+scoop uninstall whonotwin11
+scoop uninstall whynotwin11
+scoop list
+scoop uninstall whynotwin11-portable
+tldr
+which tldr
+scoop uninstall tldr
+status
+upgrade
+status
+scoop update
+scoop install wsl-ubuntu2004
+scoop uninstall wsl-ubuntu2004
+scoop install PowerToys-Portable
+chgrp
+scoop install lapce
+scoop list
+
+exit
+scoop install vcpkg
+vcpkg 
+vcpkg intergrate remove
+vcpkg integrate remove
+vckpg search gcc
+vcpkg
+vcpkg search gcc
+vcpkg search clangd
+vcpkg search clang
+which vcpkg
+vcpkg search tdm
+scc
+git config --global core.editor "code --wait"
+git config --global sequence.editor "code --wait"
+scoop uninstall tldr
+tldr update-alternatives
+tldr --update
+tldr update-alternatives
+git config --global color.ui auto
+cd "D:\repo\vcpkg"
+ls
+git reflog
+git log
+git lg
+git lg | fzf
+gitui
+lazygit
+wsl -l -v
+update
+btm
+wsl
+pwsh
+winget upgrade
+code $PROFILE
+zoxide import --from z
+zoxide import --from z --help
+fzf
+rg :7890
+fd
+cd ~
+ls
+cd D:
+rg :7890
+z repo
+z
+z repo
+z .\_viminfo
+cd D:
+cd repo
+cd C:
+z repo
+nvim $PROFILE
+z
+nvim $PROFILE
+z .\_viminfo
+z .\.config\
+z .\scoop\config.json
+z .\scoop\
+ls
+nvim config.json
+winget upgrade --all
+winget list
+scoop uninstall powertoys-portable
+winget search powertoys
+nu
+nvim $PROFILE
+cd
+ls
+brew
+code $PROFILE
+nvim $PROFILE
+fz
+fzf
+scoop update fzf
+. $PFOEIL
+. $PROFILE
+nvim $PROFILE
+so
+Get-PSReadLineOption
+nvim $PROFILE
+so
+nvim $PROFILE
+so
+brew list
+nvim $PROFILE
+bat C:\Users\gtr\.ssh\config
+bat C:\Users\gtr\.ssh\id_rsa
+bat C:\Users\gtr\.ssh\id_rsa.pub
+connect.exe
+so
+connect.exe
+connect
+connect.exe
+connect
+ssh -T git@github.com
+git clone git@github.com:microsoft/vscode.git
+cd D:\repo
+ls
+git clone git@github.com:microsoft/vscode.git
+ssh -T git@github.com
+git clone git@github.com:microsoft/vscode.git
+cd repo
+cd D:\repo
+git clone git@github.com:microsoft/vscode.git
+rm .\vscode\
+git clone git@github.com:microsoft/vscode.git
+ssh -T git@github.com
+update
+scoop update bat
+bat
+scoop info zoxide
+scoop cat zoxide
+cd D:\BaiduSyncdisk\Configuration\Develop
+ln -s .\.ssh\ ~\.ssh
+ln -s .\.ssh\ $HOME\.ssh
+cd D:\codeLearn\rust
+git clone git@github.com:hhsjsth/helloRust.git
+cd git
+cd .\helloRust\
+ls
+gitui
+update
+atuin export
+cd C:\Users\gtr\AppData\Local
+ls
+git clone C:\Users\gtr\AppData\Local
+git clone git@github.com:AstroNvim/AstroNvim.git
+ln -s .\AstroNvim\ nvim
+nvim
+ls
+nvim .vimrc
+nvim 
+cd C:\Users\gtr\AppData\Local
+ls
+z loca
+z local
+cd ..
+z loca
+sl
+ls
+z local
+git clone git@github.com:NvChad/NvChad.git
+ln -s .\NvChad\ nvim
+nvim .vimrc
+nvim ~/.vimrc
+nvim $HOME/.vimrc
+nviom
+nvim
+ls
+nvim nvim
+ls
+ls | rg nvim
+cd nvim
+ls
+nvim .
+nvim
+cd ..
+rm nvim-data
+sudo rm nvim-data
+cd nvim
+nvim .
+ls
+cd ..
+rm nvim
+git clone git@github.com:NvChad/NvChad.git
+ls
+ln -s .\NvChad\ nvim
+nvim 
+nvim nvim
+nvim ./nvim
+cd nvim
+nvim .
+nvim
+cd ..
+rm nvim
+sudo rm nvim
+ln -s .\AstroNvim\ nvim
+ls
+cd nvim
+nvim .
+:q
+cd ..
+rm nvim-data
+nvim
+z local
+la
+ls
+nvim
+update
+upgrade
+scoop cache rm bat
+upgrade
+scoop cache rm bat
+status
+scoop update bat
+scoop uninstall bat
+status
+scoop update nushell
+scoop update
+scoop bucket rm apps
+scoop bucket rm main
+scoop bucket add apps https://github.com/kkzzhizhou/scoop-apps
+scoop install bat
+scoop bucket add main
+scoop install bat
+status
+scoop update nushell
+nvim
+z loca
+ls
+rm nvim-data
+sudo rm nvim-data
+explorer.exe .
+z local
+nvim
+sudo rm nvim-data
+explorer.exe
+explorer.exe .
+z local
+vim
+nvim
+ls
+explorer.exe .
+lapce
+ln -s .\NvChad\ nvim
+rm nvim
+explorer.exe .
+ln -s .\NvChad\ nvim
+nvim
+ls
+nvim
+cd code
+z code
+z learn
+cd D:
+ls
+cd .\codeLearn\
+ls
+cd rust
+ls
+cd helloRust
+nvim .
+nvim
+nvim .
+z local
+explorer.exe
+explorer.exe .
+ln -s .\AstroNvim\ nvim
+nvim .
+cd nvim
+nvim .
+scoop list
+code $PROFILE
+oh-my-posh init
+code $PROFILE
+z code
+scc
+cloc
+scc
+scoop cat scc
+scoop install elvish
+scoop uninstall elvish
+winget upgrade --all
+scoop install elvish
+fz
+fzf
+ru
+nu
+ru
+nu
+z c
+z cmaketest
+cd D:\codeLearn\
+cd D:\codeLearn\c\cmaketest\
+ls
+la
+ls
+z cmaketest
+ls
+nls
+ls
+kls
+ls
+ks
+ls
+la
+ls
+^ls
+&ls
+^ls
+ls
+git reset -- .\.clang-format
+git add .\.clang-format
+git reset -- .\.clang-format
+git add .\.clang-format
+git reset -- .\.clang-format
+git add .\.clang-format
+git reset
+git add .\.clang-format
+git reset
+git checkout -b test
+git commit -m "test"
+git add .\.clang-format
+git commit -m "test"
+git reset 
+git reset -p
+git reset
+git delete .\.clang-format
+git rm .\.clang-format
+git rm .\.clang-format --cached
+git checkout main
+git checkout master
+git checkout master -f
+git branch -d test
+git branch -D test
+git revert
+wsl --version
+wsl.exe --version
+wsl --update
+scoop update nushell
+status
+scoop update lxgwwenkaimono
+scoop status
+brew list
+nvim
+arch help | clip
+arch help | clip.exe
+arch backup --reg
+ls
+nvim .\backup.reg
+rm .\backup.reg
+scoop uninstall nushell
+scoop cleanup *
+scoop install nushell
+status
+scoop update gsudo
+scoop cleanup *
+scoop status
+scoop upgrade
+upgrade
+scoop hold vcpkg
+vcpkg
+vcpkg integrade remove
+vcpkg integrate remove
+scoop uninstall vcpkg
+vcpkg
+scoop list
+scoop install qqmusic
+scoop update
+update
+ls
+update
+update git
+upgrade git
+rg lite
+rg k-lite
+rg mega
+nvim
+scoop uninstall dandanplay\
+scoop uninstall dandanplay
+scoop list
+scoop install dandanplay
+scoop uninstall dandanplay
+scoop install dandanplay
+touch 狂赌之渊.md
+scoop list
+z code
+ls
+cd rust
+ls
+code .\helloRust\
+winget upgrade --all
+scoop install doxygen
+scoop uninstall doxygen
+upgrade
+update
+scoop uninstall dandanplay
+scoop install doxygen
+scoop install dandanplay
+status
+scoop uninstall go
+scoop install PartAssist
+sudo scoop install PartAssist
+sudo scoop uninstall PartAssist
+scoop install bootice
+scoop install NotepadNext
+winget list
+wwinget upgrade --all
+winget upgrade --all
+update
+scoop list
+scoop update
+status
+scoop update firefox
+neofetch
+btop
+btm
+scoop install ModernFlyouts-UserInstall
+scoop install ModernFlyouts
+btm
+update
+update firefox
+upgrade
+update
+winget upgrade --all
+nvim
+wsl --shutdown
+update
+nvim .\.bash_history
+nvim
+update
+z repo
+ls
+git clone https://gitee.com/rpg-7/vostok564.git
+cd .\vostok564\
+ls
+axx
+scc .
+cloc .
+cd ..
+cd .\vostok564\
+ls
+wsl --shutdown
+scoop install iperf3
+btop
+ff
+rg "源"
+rg "node"
+rg "npmmirror"
+npm config set registry https://npmmirror.com/mirrors/node/
+which npm
+echo "npm config set registry https://npmmirror.com/mirrors/node/" | clip
+npm config set registry https://npmmirror.com/
+nvim
+fzf
+cd D:
+fzf
+code $(fzf)
+gcc -o test test.c
+./test.exe
+touch 1.修炼内功的好处.md
+code .\1.修炼内功的好处.md
+scoop list
+scoop install ventoy
+btop
+update
+scoop uninstall aliyundrive todesk
+scoop uninstall nushell
+scoop cache rm nushell
+scoop install nushell
+scoop install nushell jetbrains-toolbox
+scoop config proxy 127.0.0.1:7890
+scoop install nushell jetbrains-toolbox
+nu
+scoop unstall nushell
+scoop uninstall nushell
+scoop install nushell@0.68.1
+scoop uninstall nushell
+scoop install nushell@0.68.0
+scoop uninstall nushell
+scoop install nushell@0.67.0
+scoop uninstall nushell
+scoop install nushell@0.66.0
+scoop uninstall nushell
+scoop install nushell
+winget upgrade --all
+nu
+ls
+gcc -o test test.c
+./test.c
+./test
+shutdown /s /t 14400
+cargo 
+cargo install macchina
+cargo search fetch
+cargo help
+cargo install ferris-fetch
+cargo install joshuto
+ferris-fetch
+ferris-fetch
+which ferris-fetch
+joshuto
+dust
+cargo install dust
+scoop uninstall hexyl
+cargo install hexyl
+nvim .\.cargo\config
+cargo install dust hexyl
+which cargo
+nvim config
+cargo install dust hexyl
+nvim config
+cargo install dust hexyl
+dust
+cargo install du-dust
+scoop uninstall scc
+scoop uninstall scc tokei bat bottom gitui ripgrep lsd sd ripgrep tealdeer zoxide coreutils delta dust fd grex hexyl atuin
+cargo install scc tokei bat bottom gitui ripgrep lsd sd ripgrep tealdeer zoxide coreutils delta dust fd grex hexyl atuin
+atuin
+tokie
+cargo list
+cargo help
+cargo --list
+cargo packag
+cargo package
+which cargo
+cargo 
+cargo install --list
+sl
+ls
+which sl
+sl
+ls
+exa
+cargo install exa
+exa
+cargo uninstall exa
+bat
+cargo install exa
+cargo install --list
+cat $CARGO_HOME/bin/.crates.toml
+update
+cargo update
+cargo install --update
+cargo install --help
+cargo --help
+cargo --list
+cargo update *
+cargo update --help
+cargo update -p *
+cargo help update
+cargo install-update -a
+cargo install cargo-update
+scoop install aliyundrive
+cargo install-update -a
+rustup
+which rustup
+7z
+7z .\心宿三（kuon）.7z.001
+cargo install-update -a
+code $PROFILE
+update-all
+scoop cleanup *
+update-all
+cargo install nushell
+cargo search cargo
+cargo install nushell
+cargo search nushell
+cargo install nushell
+cargo update
+cargo update -a
+cargo-update 
+cargo install cargo-update 
+cargo install-update -a
+cargo install nushell
+cpufetch
+update-all
+wsl --shutdown
+wsl
+wsl -l
+shell:start
+shell:startup
+touch Arch.vbs
+nvim .\Arch.vbs
+arch help
+wsl -l -v
+arch help
+arch -u root
+wsl -u root
+wsl --shutdown
+cd "D:\BaiduSyncdisk\Configuration\Develop"
+sudo New-Item -ItemType SymbolicLink -Path "C:\Users\gtr\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\Arch.vbs" -Target ".\Arch.vbs"
+wsl --shutdown
+wsl -u root
+upgrade
+update-al
+update-all
+code $PROFILE
+update-all
+cargo update grex
+scoop cleanup 8
+scoop cleanup *
+wsl --shutdown
+update
+wsl --shutdown
+autohotkey2 "D:\BaiduSyncdisk\Configuration\Software\hjkl.ahk"
+autohotkey2 "D:\BaiduSyncdisk\Configuration\Software\test.ahk"
+btop
+btm
+autohotkey2 "D:\BaiduSyncdisk\Configuration\Software\hjkl.ahk"
+autohotkey2 "D:\BaiduSyncdisk\Configuration\Software\hjkl.ahk"\
+autohotkey2 "D:\BaiduSyncdisk\Configuration\Software\hjkl.ahk"
+update
+status
+scoop status
+scoop uninstall jetbrains-toolbox
+upgrade
+scoop list
+scoop uninstall xray v2ray v2rayn
+scoop list
+scoop uninstall v2rayn-rules-dat
+scoop install v2rayn-rules-dat
+scoop uninstall v2rayn-rules-dat
+scoop uninstall xray v2ray v2rayn
+scoop uninstall v2rayn-rules-dat
+scoop list
+scoop install topgrade
+topgrade
+topgrade --edit-config
+scoop uninstall topgrade
+scoop install topgradeCLI-Portable
+topgrade --edit-config
+scoop uninstall topgradeCLI-Portable
+scoop install topgrade
+ls
+lsd
+scoop install v2rayn-rules-dat
+scoop uninstall v2rayn-rules-dat
+scoop uninstall xray v2ray v2rayn
+scoop list
+update
+upgrade
+scoop uninstall siyuan
+neovide D:\temp\
+nvim
+cd "D:\repo"
+tar -xvf .\linux-6.0.5.tar.xz
+setproxy
+$Env:http_proxy="http://127.0.0.1:7890";$Env:https_proxy="http://127.0.0.1:7890"
+git clone https://github.com/torvalds/linux.git
+nvim
+scoop install ncdu
+ls
+nvim
+$Env:http_proxy="http://127.0.0.1:7890";$Env:https_proxy="http://127.0.0.1:7890"
+nvim
+ls
+arch --help
+nvim
+scoop install wget
+update
+scoop install tree-sitter
+status
+scoop statu
+scoop status
+nvim
+git clone https://github.com/AstroNvim/AstroNvim $env:LOCALAPPDATA\nvim
+nvim +PackerSync
+nvim
+update
+scoop status obsidian
+wsl --shutdown
+nvim
+$Env:http_proxy="http://127.0.0.1:7890";$Env:https_proxy="http://127.0.0.1:7890"
+topgrade
+$Env:http_proxy="http://127.0.0.1:7890";$Env:https_proxy="http://127.0.0.1:7890"
+topgrade
+cargo config
+nvim .\.cargo\config
+cargo list
+cargo install list
+cargo 
+cargo --list
+cargo install-update -a
+cargo uninstall grex tealdeer cargo-update
+cargo install-update -a
+cargo install cargo-update
+cargo install-update -a
+grex
+cargo install grex
+cargo install tealdeer
+$Env:http_proxy="http://127.0.0.1:7890";$Env:https_proxy="http://127.0.0.1:7890"
+topgrade
+nvim
+scoop install tree-sitter
+tree-sitter
+tree-sitter parse D:\codeLearn\c\cmaketest\main.cpp
+tree-sitter init-config
+tree-sitter parse D:\codeLearn\c\cmaketest\main.cpp
+tree-sitter dump-languages cpp
+tree-sitter dump-languages
+tree-sitter -v
+tree-sitter -h
+tree-sitter generate
+wsl --shutdown
+update
+scoop update firefox
+update
+topgrade
+$Env:http_proxy="http://127.0.0.1:7890";$Env:https_proxy="http://127.0.0.1:7890"\
+$Env:http_proxy="http://127.0.0.1:7890";$Env:https_proxy="http://127.0.0.1:7890"
+topgrade
+topgrade --
+topgrade --edit-config
+topgrade --help
+topgrade --config enable_winget=true
+topgrade
+$Env:http_proxy="http://127.0.0.1:7890";$Env:https_proxy="http://127.0.0.1:7890"
+topgrade
+scoop uninstall potplayer
+topgrade
+scoop uninstall python3
+scoop uninstall python
+clangd -v
+clangd --version
+hx
+topgrade
+scoop update firefox
+scoop install TianRuoOCR
+scoop uninstall TianRuoOCR
+clangd --version
+which clangd
+clang
+clang -v
+scoop uninstall winlibs-mingw-llvm-ucrt
+scoop install llvm
+clang
+clangd
+which clangd
+clangd --version
+clangd
+clang++
+clang
+which clang
+gcc
+g++
+clnag
+clang
+nvim test.c
+clang test.c -o test
+scoop install clangd
+clang test.c -o test
+scoop uninstall llvm
+scoop uninstall clangd
+scoop install llvm-mingw
+ls
+clang
+clangd
+clangd --version
+ls
+clang test.c -o test
+./test
+rm test test.c
+rm test
+ls
+rm test.exe
+rm test.c
+scoop install llvm
+scoop uninstall llvm
+topgrade
+scoop install make
+make
+ scoop update topgrade
+scoop cleanup *
+update
+scoop uninstall qqmusic
+scoop update neovide
+clang-format --version
+clang-format
+.\clang-format.exe --version
+clang -E log.c >  temp.txt
+clang -E .\common\log.c > temp.txt
+clang .\temp.c -o temp
+./temp
+clang .\temp.c -o temp
+./temp
+clang .\temp.c -o temp
+./temp
+pwd
+clangd --help
+wsl --list
+topgrade
+gcc temp.c -E temp.txt
+gcc temp.c -E > temp.txt
+scoop install Twinkle Tray
+scoop install Twinkle-Tray
+topgrade
+scoop install vscode-insiders-portable
+scoop uninstall vscode-insiders-portable
+scoop uninstall vscode-insiders
+scoop install vscode-insiders
+scoop install vscode-insiders-portable
+topgrade
+scoop uninstall vscode-insiders
+scoop install vscode-insiders-portable
+scoop uninstall vscode-insiders-portable
+scoop install vscode-insiders-portable
+scoop install vscode-insiders-portable -f
+scoop install vscode-insiders-portable --force
+scoop install vscode-insiders-portable -s
+scoop list
+scoop uninstall vscode-insiders-portable
+scoop install vscode-insiders-portable -s
+topgrade
+su
+sudo
+topgrade
+scoop cleanup *
+[Windows.Media.Ocr.OcrEngine, Windows.Foundation, ContentType = WindowsRuntime]
+Get-WindowsCapability -Online | Where-Object { $_.Name -Like 'Language.OCR*' }
+$Capability = Get-WindowsCapability -Online | Where-Object { $_.Name -Like 'Language.OCR*en-US*' }
+$Capability | Add-WindowsCapability -Online
+$Capability = Get-WindowsCapability -Online | Where-Object { $_.Name -Like 'Language.OCR*zh-CN*' }
+$Capability | Add-WindowsCapability -Online
+topgrade
+ccls
+cd "D:\repo"
+git clone https://github.com/MaskRay/ccls.git
+cd .\ccls\
+cmake -H. -BRelease -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_COMPILER=clang-cl -DCMAKE_PREFIX_PATH="D:/llvm/Release"
+ninja -C Releasecmake -H. -BRelease -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_COMPILER=clang-cl
+scoop install ninja
+cmake -H. -BRelease -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_COMPILER=clang-cl
+which cmake
+cmake -H. -BRelease -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_COMPILER=clang-cl
+cmake -BRelease -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_COMPILER=clang-cl
+winget install tencent.tim
+wsl --shutdown
+cargo install-update -a
+arch --help
+arch run bash
+ls
+cd "D:\repo"
+ls
+cd ccls
+ls
+cmake -H. -BRelease -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH="D:\scoop\apps\llvm-mingw\20220906\bin"
+scoop install llvm
+scoop install msys2
+msys2
+which msys2
+scoop uninstall llvm llvm-mingw
+which llvm-as
+clang
+which clang
+clang
+make
+pwd
+ls
+make
+clang
+make
+git init
+scoop info capslock-plus
+autohotkey2 "D:\temp\hjkl.ahk"
+scoop install AutoHotkey
+autohotkey2 "D:\Downloads\CapsLockPlus.ahk"
+autohotkey2 "D:\Downloads\capslock++.ahk"
+git clone https://github.com/yoskeoka/ahk-hjkl.git
+topgrade
+autohotkey2 "D:\baiduSyncdisk\Configuration\Software\hjkl.ahk"
+scoop install ubuntumono-NF
+scoop install mplus 字体
+scoop install mplus-nf
+scoop list
+scoop uninstall mplus-nf
+scoop uninstall mplus-nf-mono
+scoop install mplus-nf-mono
+scoop install smiley-sans
+cd "D:\repo"
+git clone https://github.com/coz-m/MPLUS_FONTS.git
+rm .\MPLUS_FONTS\
+explorer.exe .
+scoop uninstall mplus-nf-mono
+scoop uninstall autohotkey2
+nvim temp.c
+gcc temp.c -E > temp.txt
+gcc temp.c -o temp
+./temp.exe
+gcc
+which gcc
+gcc -v
+./temp.exe
+nvim temp.c
+gcc -o test test.c
+gcc test.c -o test
+gcc temp.c -o temp
+./test
+./temp.exe
+nvim .clang-format
+scoop install gum
+gum
+cd "D:\repo"
+git clone https://github.com/wo52616111/capslock-plus.git
+code .\capslock-plus\
+git init
+topgrade
+scoop staus
+scoop status
+scoop hold lavfilters
+scoop uninstall winlibs-mingw-llvm-ucrt
+scoop list
+scoop statu
+scoop status
+scoop uninstall tortoisegit
+scoop hold vscode-insiders-portable
+scoop hold logseq
+sudo scoop update ventoy
+scoop status
+scoop 
+scoop list
+scoop update
+scoop install Meslo-NF-Mono
+scoop install MPlus-NF-Mono
+scoop info MPlus-NF-Mono
+scoop info MPlus-NF
+scoop list
+scoop install MPlus-NF-Mono
+scoop uninstall MPlus-NF-Mono
+echo $'\ue62b'
+scoop list
+scoop install https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts
+scoop install mPlus-NF
+scoop list
+scoop uninstall mPlus-NF
+sudo scoop install mPlus-NF -g
+sudo scoop uninstall mPlus-NF -g
+scoop list
+scoop status
+scoop install Terminus-NF
+scoop list
+scoop uninstall Terminus-NF
+nu
+scoop list
+ccls
+clang
+wsl --list
+wsl -l -v
+wsl --shutdown
+arch
+cd "d:\codeLearn\c\temp\" ; if ($?) { gcc temp.c -o temp } ; if ($?) { .\temp }
+gcc
+cd "d:\codeLearn\c\temp\" ; if ($?) { gcc temp.c -o temp } ; if ($?) { .\temp }
+clang
+cd "d:\codeLearn\c\temp\" ; if ($?) { gcc temp.c -o temp } ; if ($?) { .\temp }
+ls
+gdb temp.exe
+ & 'c:\Users\gtr\.vscode\extensions\vadimcn.vscode-lldb-1.8.1\adapter\codelldb.exe' 'terminal-agent' '--connect=55276' 
+ & 'c:\Users\gtr\.vscode\extensions\vadimcn.vscode-lldb-1.8.1\adapter\codelldb.exe' 'terminal-agent' '--connect=55299' 
+ & 'c:\Users\gtr\.vscode\extensions\vadimcn.vscode-lldb-1.8.1\adapter\codelldb.exe' 'terminal-agent' '--connect=55309' 
+ & 'c:\Users\gtr\.vscode\extensions\vadimcn.vscode-lldb-1.8.1\adapter\codelldb.exe' 'terminal-agent' '--connect=55335' 
+ & 'c:\Users\gtr\.vscode\extensions\vadimcn.vscode-lldb-1.8.1\adapter\codelldb.exe' 'terminal-agent' '--connect=55348' 
+gcc -o -g test test.c
+clang -o -g test test.c
+clang
+gcc
+clang
+gcc
+cd "d:\codeLearn\c\temp\" ; if ($?) { gcc temp.c -o temp } ; if ($?) { .\temp }
+which gcc
+$Env:path=$Env:Path+";D:\scoop\apps\msys2\current\mingw64\bin\"
+gcc
+gcc -o -g test test.c
+gcc -o -g temp temp.c
+clang -o -g temp temp.c
+clang -o temp temp.c -g
+ & 'c:\Users\gtr\.vscode\extensions\vadimcn.vscode-lldb-1.8.1\adapter\codelldb.exe' 'terminal-agent' '--connect=55785' 
+clang -o temp temp.c -g
+ & 'c:\Users\gtr\.vscode\extensions\vadimcn.vscode-lldb-1.8.1\adapter\codelldb.exe' 'terminal-agent' '--connect=55795' 
+clang -o temp temp.c -g
+./temp.exe
+cd "d:\codeLearn\c\temp\" ; if ($?) { gcc temp.c -o temp } ; if ($?) { .\temp }
+gcc
+clang
+$Env:path=$Env:Path+";D:\scoop\apps\msys2\current\mingw64\bin\"
+gcc -o -g temp temp.c
+ls
+z c/temp
+z code
+cd .\c\temp\
+ls
+gcc -o -g temp temp.c
+gcc -o temp temp.c -g
+./temp.exe
+gcc -o temp temp.c -g
+./temp.exe
+gcc -o temp temp.c -g
+./temp.exe
+gcc -o temp temp.c -g
+gdb temp.exe
+lldb
+lldb temp.exe
+ & 'c:\Users\gtr\.vscode\extensions\vadimcn.vscode-lldb-1.8.1\adapter\codelldb.exe' 'terminal-agent' '--connect=51484' 
+gcc -o temp temp.c -g
+clang -o temp temp.c -g
+$Env:path=$Env:Path+";D:\scoop\apps\msys2\current\mingw64\bin\"
+clang -o temp temp.c -g
+gcc -o temp temp.c -g
+which cc
+which gcc
+clang
+clang -o temp temp.c -g
+gcc -o temp temp.c -g
+gcc -o temp temp.c
+rm temp.exe
+sudo rm temp.exe
+clang -o temp temp.c -g
+ & 'c:\Users\gtr\.vscode\extensions\vadimcn.vscode-lldb-1.8.1\adapter\codelldb.exe' 'terminal-agent' '--connect=51662' 
+gcc -o temp temp.c
+ & 'c:\Users\gtr\.vscode\extensions\vadimcn.vscode-lldb-1.8.1\adapter\codelldb.exe' 'terminal-agent' '--connect=51668' 
+clang -o temp temp.c -g
+ & 'c:\Users\gtr\.vscode\extensions\vadimcn.vscode-lldb-1.8.1\adapter\codelldb.exe' 'terminal-agent' '--connect=51672' 
+clang -o temp temp.c -g
+ & 'c:\Users\gtr\.vscode\extensions\vadimcn.vscode-lldb-1.8.1\adapter\codelldb.exe' 'terminal-agent' '--connect=51693' 
+clang -o temp temp.c -g
+ & 'c:\Users\gtr\.vscode\extensions\vadimcn.vscode-lldb-1.8.1\adapter\codelldb.exe' 'terminal-agent' '--connect=51718' 
+rg "codelearn"
+rg "codeLearn"
+gcc
+clang
+gcc -v
+clang
+gcc
+clang
+gcc
+rg "TPWorking"
+gcc
+code $PROFILE
+gcc
+g+
+g++
+$env:Path
+code $PROFILE
+$env:Path
+$env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
+$env:Path
+pwsh
+$env:Path
+gcc
+$env:Path
+sudo
+topgrade
+$env:Path
+gcc
+$env:Path
+gcc
+g++
+gcc
+g++
+clang
+lldb
+gdb
+which gdb
+cd "d:\codeLearn\c\temp\" ; if ($?) { gcc temp.c -o temp } ; if ($?) { .\temp }
+cd "D:\"
+rg "汇编"
+rg "建议不要把C当高级语言学"
+cd D:\codeLearn\c\cmaketest\
+..
+cd ..
+rg "建议不要把C当高级语言学"
+rustc
+which rust
+which rustc
+rustup-init
+rustup-init.exe
+./rustup-init
+scoop uninstall rustup
+scoop install zoxide
+scoop install rustup
+rustc
+which rustc
+which cargo
+rustc
+rustc -v
+rustc --version
+cargo --version
+rustup
+rustup doc
+cargo new world_hello
+cd .\world_hello\
+ls
+cargo install lsd
+cargo install lsd
+ls
+cargo run
+rustup 
+rustup
+rustup
+cargo run
+cargo build
+cargo run --release
+cargo build --release
+cargo run --release
+cargo check
+code .
+ & 'c:\Users\gtr\.vscode\extensions\vadimcn.vscode-lldb-1.8.1\adapter\codelldb.exe' 'terminal-agent' '--connect=50510' 
+ & 'c:\Users\gtr\.vscode\extensions\vadimcn.vscode-lldb-1.8.1\adapter\codelldb.exe' 'terminal-agent' '--connect=50516' 
+arch
+arch
+netsh winsock reset
+sudo netsh winsock reset
+ls
+scoop bucket add im-select https://github.com/daipeihust/im-select
+scoop install im-select.exe
+scoop install im-select
+im-select.exe
+im-select
+which im-select
+im-select
+scoop list
+sudo topgrade
+nvim
+ls
+lsd
+code $PROFILE
+cd "d:\codeLearn\rust\world_hello\src\" ; if ($?) { rustc main.rs } ; if ($?) { .\main }
+ & 'c:\Users\gtr\.vscode\extensions\vadimcn.vscode-lldb-1.8.1\adapter\codelldb.exe' 'terminal-agent' '--connect=58884' 
+ & 'c:\Users\gtr\.vscode\extensions\vadimcn.vscode-lldb-1.8.1\adapter\codelldb.exe' 'terminal-agent' '--connect=58888' 
+scoop list
+rustc -v
+rustc --version
+cargo install --list
+lsd
+which lsd
+cargo build
+cargo search num
+cargo install --list
+cargo 
+ & 'c:\Users\gtr\.vscode\extensions\vadimcn.vscode-lldb-1.8.1\adapter\codelldb.exe' 'terminal-agent' '--connect=62181' 
+ls
+git init
+ls
+git add .
+scoop install potplayer
+scoop uninstall potplayer
+sudo scoop uninstall lavfilters
+scoop install autoHotkey
+taskkill /IM dual-key-remap.exe /F && taskkill /IM AutoHotkey.exe /F
+D:\BaiduSyncdisk\Configuration\Software\dual-key-remap-v0.7\dual-key-remap.exe
+taskkill /IM dual-key-remap.exe /F && taskkill /IM AutoHotkey.exe /F
+autohotkey.exe D:\BaiduSyncdisk\Configuration\Software\Tab.ahk
+cd D:
+rg "lemonade"
+rg
+which rg
+scoop ripgrep
+scoop install ripgrep
+D:\BaiduSyncdisk\Configuration\Software\dual-key-remap-v0.7\dual-key-remap.exe
+taskkill /IM dual-key-remap.exe /F && taskkill /IM AutoHotkey.exe /F
+D:\BaiduSyncdisk\Configuration\Software\dual-key-remap-v0.7\dual-key-remap.exe
+clangd
+gcc
+sudo
+topgrade
+scoop update gsudo
+topgrade
+scoop bucket rm im-select https://github.com/daipeihust/im-select
+scoop uninstall im-select
+scoop list
+scoop update
+topgrade
+netsh winsock reset
+sudo netsh winsock reset
+wsl --update
+winget upgrade --all
+ls
+dism.exe /online /disable-feature /featurename:Microsoft-Windows-Subsystem-Linux /norestart
+sudo
+dism.exe /online /disable-feature /featurename:Microsoft-Windows-Subsystem-Linux /norestart
+dism.exe /online /disable-feature /featurename:VirtualMachinePlatform /norestart
+SUDO
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+scoop update
+msys2
+ls
+lsd
+exa
+cargo install exa
+scoop install exa
+exa
+scoop list
+scoop install todesk
+git clone git@github.com:hhsjsth/helloRust.git
+code .\helloRust\
+code-insider .\helloRust\
+code-insiders .\helloRust\
+nvim
+$env:http_proxy="http://127.0.0.1:7890";$Env:https_proxy="http://127.0.0.1:7890"
+nvim
+$env:http_proxy="http://127.0.0.1:7890";$Env:https_proxy="http://127.0.0.1:7890"
+nvim
+z my
+scoop install zoxide
+zoxide
+z myrepo
+z myRepo
+z D:\myRepo\
+ls
+git clone git@github.com:hhsjsth/helloRust.git
+code .\helloRust\
+code-insiders .\helloRust\
+scoop install Source-Han-Sans-SC
+scoop install imtip
+nvim test.cpp
+z my
+ls
+cd .\myAhk\
+ls
+..
+cd ..
+.\helloRust\
+cd .\helloRust\
+ls
+code-insiders .
+topgrade
+cargo install cargo-update
+gcc
+code $PROFILE
+$env:Path
+gcc
+gcc.exe
+gcc
+scoop cleanup *
+nvim .\.bash_logout
+nvim .\.bash_profile
+nvim .\.bashrc
+nvim .\.inputrc
+gcc
+which gcc
+cargo install cargo-update
+gcc -v
+scoop hold msys2
+scoop hold topgrade
+topgrade
+ls
+z repo
+ls
+git clone --recursive https://github.com/riscv/riscv-qemu.git
+ls
+z repo
+git clone https://github.com/microsoft/vscode
+rm vscode 
+explorer.exe .
+git clone https://github.com/microsoft/vscode
+z repo
+z tool
+z repo
+git clone https://gitee.com/mirrors/riscv-glibc.git
+cd .\riscv-glibc\
+ls
+gitui
+scoop install gitui
+gitui
+ls
+gitui
+lazygit
+ls
+wsl --unregister Arch
+wsl -l -v
+scoop uninstall archwsl
+scoop list
+scoop install archwsl
+arch 
+arch --help
+arch config --default-user gtr
+z repo
+git clone https://github.com/hhsjsth/LinuxConfig.git
+arch
+topgrade
+taskkill /IM dual-key-remap.exe /F && taskkill /IM AutoHotkey.exe /F
+sudo taskkill /IM dual-key-remap.exe /F && taskkill /IM AutoHotkey.exe /F
+cargo install cargo-update
+scoop update
+cargo install-update -a
+cargo install-update -a
+taskkill /IM dual-key-remap.exe /F && taskkill /IM AutoHotkey.exe /F
+scoop update
+scoop status
+topgrade
+upgrade
+scoop uninstall autohotkey2
+scoop uninstall autohotkey
+scoop status
+scoop unhold wezterm
+upgrade
+scoop list
+upgrade
+topgrade --keep
+taskkill /IM dual-key-remap.exe /F && taskkill /IM AutoHotkey.exe /F
+sudo taskkill /IM dual-key-remap.exe /F && taskkill /IM AutoHotkey.exe /F
+scoop uninstall topgrade
+scoop cleanup *
+topgrade
+taskkill /IM dual-key-remap.exe /F && taskkill /IM AutoHotkey.exe /F
+sudo taskkill /IM dual-key-remap.exe /F && taskkill /IM AutoHotkey.exe /F
+ls
+sudo taskkill /IM dual-key-remap.exe /F && taskkill /IM AutoHotkey.exe /F
+gh
+topgrade
+winget upgrade --all
+nvim 
+cd hello
+z hello
+ls
+nvim .
+nvim
+nvim 
+nvim
+wsl -l -v
+sudo dism.exe /online /disable-feature /featurename:Microsoft-Windows-Subsystem-Linux /norestart
+sudo dism.exe /online /disable-feature /featurename:VirtualMachinePlatform /norestart
+scoop list
+ls
+z hello
+nvim .
+scoop status
+scoop list
+arch
+scoop list
+scoop status
+scoop list
+topgrade
+which ln
+sudo
+ln .\.zshrc "D:\scoop\apps\msys2\2022-10-28\home\gtr\.zshrc"
+mklink .\.zshrc "D:\scoop\apps\msys2\2022-10-28\home\gtr\.zshrc"
+New-Item -ItemType SymbolicLink -Path "D:\scoop\apps\msys2\2022-10-28\home\gtr\.zshrc" -Target .\.zshrc
+New-Item -ItemType SymbolicLink -Path "D:\scoop\apps\msys2\2022-10-28\home\gtr\.zshrc" -Target "D:\BaiduSyncdisk\Configuration\Develop\.zshrc"
+sudo New-Item -ItemType SymbolicLink -Path "D:\scoop\apps\msys2\2022-10-28\home\gtr\.zshrc" -Target "D:\BaiduSyncdisk\Configuration\Develop\.zshrc"
+scoop list
+topgrade
+zsh
+taskkill /IM zsh.exe /F
+taskkill /IM dual-key-remap.exe /F && taskkill /IM AutoHotkey.exe /F
+which taskkill
+scoop install potplayer
+zsh
+coreutils-rs
+scoop install coreutils-rs
+coreutil
+coreutils
+coreutils ln -s ~/.gitconfig "D:\scoop\apps\msys2\2022-10-28\home\gtr\.gitconfig"
+sudo coreutils ln -s ~/.gitconfig "D:\scoop\apps\msys2\2022-10-28\home\gtr\.gitconfig"
+sudo coreutils ln -s "D:\BaiduSyncdisk\Configuration\Develop\.gitconfig" "D:\scoop\apps\msys2\2022-10-28\home\gtr\.gitconfig"
+shutdown /s /t 7200
+scoop list
+clear
+topgrade
+upgrade
+scoop update Twinkle-Tray
+scoop list
+clear
+scoop install tor-browser
+scoop info tor-browser
+scoop list
+scoop install sumatrapdf
+scoop install BookxNotePro
+topgrade
+scoop hold todesk
+scoop statu
+scoop status
+scoop info wezterm
+scoop uninstall wezterm
+scoop install wezterm-portable
+cargo install joshuto
+jo
+joshuto
+scoop list
+topgrade
+arch
+lf
+update
+scoop install twinkle tray .exe
+scoop install twinkletray
+scoop install twinkle-tray
+scoop uninstall twinkle-tray
+scoop install twinkle-tray
+scoop uninstall twinkle-tray
+cargo install-update -a
+nvim $HOME/.cargo/config
+cargo install-update -a
+jo
+cargo install joshuto
+arch
+wsl --unregister Arch
+scoop uninstall archwsl
+scoop install archwsl
+arch
+scoop uninstall archwsl
+wsl -l -v
+scoop install arch
+scoop install archw
+scoop install archwsl
+arch
+wsl --shutdown
+arch
+arch arch config --default-user gtr
+arch config --default-user gtr
+arch
+ipconfig /flushdns
+wsl --shutdown
+arch
+which cc
+arch
+make -v
+nvim
+nvim
+winget upgrade --all
+arch
+whoami
+arch
+wsl -l -v
+wsl
+wsl -l
+ls
+which ls
+file ls
+file lsd.exe
+file
+which file
+ls
+file .vimrc
+which file
+tar -xvf
+tar -xvf .\linux-6.0.8.tar.xz
+tar -zxvf .\linux-6.0.8.tar.xz
+ls
+cd D:
+rg "扎克伯格"
+scoop update
+scoop status
+upgrade
+scoop install windterm
+arch
+ver
+arch
+wsl --update
+ls
+lsd
+wsl --shutdown
+scoop install IBMPlexMono-NF
+scoop uninstall IBMPlexMono-NF
+cargo install install-update
+cargo install cargo-update
+cargo
+wsl -l -v
+wsl --shutdown
+taskkill /IM wezterm /F
+taskkill /IM wezterm.exe /F
+taskkill /IM zsh.exe /F
+topgrade
+scoop list
+scoop install procmon
+topgrade
+update
+scoop uninstall Snipaste-Portable
+scoop uninstall todesk
+scoop update imtip
+scoop update imtip -f
+scoop update imtip -s
+scoop status
+scoop update Obsidian ventoy
+scoop status
+scoop uninstall logseq
+msys2
+scoop install treesize
+ls
+scoop update
+scoop status
+upgrade
+lf
+cd ~
+ls
+lf
+cd ~
+ls
+lf
+nu
+nvim .wslconfig
+wsl --shutdown
+wsl -l -v
+nvim .wslconfig
+arch
+wsl --shutdown
+wsl -l -v
+wsl -u root
+wsl -l -v
+wsl --shutdown
+taskkill /IM zsh.exe /F
+zsh
+taskkill /IM zsh.exe /F
+wsl -l -v
+arch
+wsl -l -v
+upgrade
+update-hold vscode-insiders-portable
+scoop unhold vscode-insiders-portable
+scoop install -s vscode-insiders-portable
+scoop update -s vscode-insiders-portable
+scoop hold vscode-insiders-portable
+scoop cleanup vscode-insiders-portable
+scoop uninstall vscode-insiders-portable
+scoop install vscode-insiders
+scoop uninstall vscode-insiders
+taskkill /IM zsh.exe /F
+scoop install vscode-insiders
+scoop uninstall vscode-insiders
+scoop install vscode-insiders
+scoop uninstall vscode-insiders
+topgrade
+scoop install zotero
+upgrade
+nu
+nvim
+ls
+taskkill /IM zsh.exe /F
+neovim -v
+nvim -v
+cd "d:\myRepo\helloRust\src\" ; if ($?) { rustc main.rs } ; if ($?) { .\main }
+taskkill /IM zsh.exe /F
+code-insiders
+which code-insiders
+cd "d:\myRepo\helloRust\src\" ; if ($?) { rustc main.rs } ; if ($?) { .\main }
+tldr
+scoop install tldr
+tldr tc
+tldr
+tldr -u
+$env:Http_proxy="http://127.0.0.1:7890";$Env:https_proxy="http://127.0.0.1:7890"
+tldr -u
+cd "d:\myRepo\helloRust\src\" ; if ($?) { rustc main.rs } ; if ($?) { .\main }
+update
+cd "d:\myRepo\helloRust\src\" ; if ($?) { rustc main.rs } ; if ($?) { .\main }
+rustup update
+tldr ldd
+upgrade
+taskkill /IM zsh.exe /F
+ls
+sl
+ls
+sl
+ls
+which sl
+sl
+ls
+which ls
+^ls
+code $PROFILE
+ls
+cd .\「开始」菜单\
+ls
+ra
+ranger
+lf
+cd D:
+ls
+cd D:
+...
+cd ..
+ls
+cd ..
+lf
+ls
+lf
+taskkill /IM zsh.exe /F
+scoop list
+upgrade
+ipconfig /flushdns
+taskkill /IM zsh.exe /F
+gcc
+clang
+gcc -v
+taskkill /IM dual-key-remap.exe /F && taskkill /IM AutoHotkey.exe /F
+scoop list
+scoop list > temp.txt
+systeminfo | find "Original Install Date"
+ls
+upgrade
+scoop update
+scoop list
+upgrade
+scoop uninstall Delugia-Nerd-Font-Complete
+scoop uninstall FiraCode-NF
+scoop uninstall Hack-NF
+scoop uninstall JetBrainsMono-NF
+scoop uninstall Meslo-NF-Mono
+scoop uninstall sarasa-mono-sc-nerd
+scoop uninstall sarasa-mono-sc-nerd -g
+sudo scoop uninstall sarasa-mono-sc-nerd -g
+sudo scoop install sarasa-mono-sc-nerd -g
+scoop uninstall smiley-sans Source-Han-Sans-SC ubuntumono-NF
+scoop uninstall JetBrainsMono-NF
+scoop list | rg "lxgw"
+scoop uninstall lxgwwenkaimono
+sudo scoop install lxgwwenkaimono -g
+scoop list
+sudo scoop install sarasa-mono-sc-nerd -g
+shutdown /s /t 3600
+scoop install Source-Han-Sans-SC
+sudo scoop install Source-Han-Sans-SC -g
+scoop list | less
+update
+upgrade
+taskkill /IM zsh.exe /F
+arch
+wsl --shutdown
+arch
+wsl --shutdown
+scoop list
+scoop uninstall msys2
+nvim C:\Users\gtr\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+ls
+gcc
+clang
+scoop install bypass
+upgrade
+scoop uninstall cloc
+upgrade
+scoop status
+scoop uninstall xmind
+rustc -v
+rustc --version
+rustup
+rustup update
+cd "d:\myRepo\helloRust\src\" ; if ($?) { rustc main.rs } ; if ($?) { .\main }
+which rust
+z hello
+sudo scoop install JetBrainsMono-NF -g
+cd "d:\myRepo\helloRust\src\" ; if ($?) { rustc main.rs } ; if ($?) { .\main }
+z hello
+zoxide
+ls
+lsd 
+ls
+topgrade
+topgrade
+rustup update
+cargo install-update all
+cargo install-update
+cargo-insatll
+cargo-install
+cargo install-update -a
+cargo uninstall cargo-update
+cargo install cargo-update
+scoop install llvm-mingw
+gcc
+g++
+cc
+cargo install cargo-update
+scoop uninstall llvm-mingw
+scoop install mingw
+scoop uninstall llvm-mingw
+cargo install cargo-update
+gcc
+cc
+cargo install-update -a
+topgrade
+gcc
+which gcc
+gcc -v
+cmake
+cmake --help
+cmake -S
+cmake .
+cmake ./
+scoop install llvm-mingw
+which clangd
+clangd
+which clangd | clip.exe
+rg "clangd"
+rg "clangd" > ~/temp.txt
+ccls
+which ccls
+scoop install vscode
+z repo
+ls
+git clone https://github.com/rust-lang/rust.git
+code .\rust\
+scoop uninstall vscode
+code
+which code
+scoop lsit
+scoop list
+scoop uninstall winlibs-mingw-llvm-ucrt
+gcc
+which gcc
+clangd-
+clangd
+ccls
+which ccls
+upgrade
+fzf
+ls
+scoop list
+topgrade
+winget upgrade 
+winget upgrade Sogou.SogouInput Baidu.BaiduNetdisk
+winget upgrade Sogou.SogouInput
+winget upgrade Baidu.BaiduNetdisk
+arch --help
+arch run cd
+arch run grep
+arch run fd
+arch runp cd
+arch get --default-term
+arch --help
+scoop update
+scoop status
+topgrade
+scoop uninstall dandanplay
+scoop install dandanplay
+scoop list
+sudo scoop update *
+sudo scoop update * -g
+scoop cleanup *
+scoop list
+scoop uninstall lxgwwenkaimono -g
+sudo scoop uninstall lxgwwenkaimono -g
+sudo scoop install lxgwwenkaimono -g
+sudo scoop update * -g
+wsl -l -v
+wsl
+scoop uninstall dandanplay
+ls
+lsd
+wsl --shutdown
+sudo taskmanager
+taskkill /IM wsl.exe /F
+wsl -l -v
+taskkill /IM vmmemwsl /F
+sudo taskkill /IM vmmemwsl /F
+taskkill /IM vmmemwsl /F
+topgrade
+wsl -l -v
+topgrade
+ssh 192.168.3.200
+ip a
+ifconfig
+ipconfig
+ssh 192.168.3.200
+ ip a
+ifconfig
+ipconfig
+ssh 192.168.3.200
+ping 192.168.3.200
+ping 192.168.3.250
+ipconfig
+ping 192.168.31.200
+ssh 192.168.31.200
+ssh root@192.168.31.200
+ssh 192.168.31.200
+ssh -v 192.168.31.200
+ssh 192.168.31.200
+ping 192.168.31.200
+ping
+ping 192.168.31.200 -n 10
+ping 192.168.31.218
+ping 192.168.31.218 -n 10
+ssh 192.168.31.218
+ping 192.168.31.218 -n 10
+ssh 192.168.31.218
+ping 192.168.31.218 -n 10
+ssh 192.168.31.218
+ssh 192.168.31.210
+ssh 192.168.31.200
+ssh 192.168.31.218
+ipconfig
+nvim
+$env:Http_proxy="http://127.0.0.1:7890";$Env:https_proxy="http://127.0.0.1:7890"
+nvim
+scoop install gdu
+python
+python3
+node
+rm $env:LOCALAPPDATA\nvim
+explorer.exe $env:LOCALAPPDATA\nvim
+git clone https://github.com/AstroNvim/AstroNvim $env:LOCALAPPDATA\nvim
+nvim
+ping 192.168.31.218 -n 10
+ping 192.168.31.200 -n 10
+ping 192.168.31.201 -n 10
+ping 192.168.31.202 -n 10
+ping 192.168.31.222 -n 10
+ping 192.168.31.218 -n 10
+ping 192.168.31.210 -n 10
+ping 192.168.31.200 -n 10
+ssh 192.168.31.200
+ping 192.168.31.211
+ssh 192.168.31.211
+nvim C:\Users\gtr\.ssh\known_hosts
+ssh 192.168.31.211
+mingw
+ping 192.168.31.211
+Start-Process -WindowStyle hidden -FilePath "Lemonade" Args "server"
+lemonade
+Start-Process -WindowStyle hidden -FilePath "lemonade" Args "server"
+lemonade server
+Start-Process -WindowStyle hidden -FilePath "lemonade" Args "server"
+Start-Process -WindowStyle hidden -FilePath "lemonade"
+taskkill /IM lemonade /F
+Start-Process -WindowStyle hidden -FilePath "lemonade" Args "server"
+Start-Process -WindowStyle hidden -FilePath "./lemonade" Args "server"
+Start-Process -WindowStyle hidden -FilePath "./lemonade.exe" Args "server"
+lemonade
+lemonade server
+ping 192.168.31.211
+ping 192.168.31.211 -n 10
+ssh 192.168.31.211
+ping 192.168.31.211 -n 10
+ipconfig
+lemonade server
+start-Process -WindowStyle hidden -FilePath "./lemonade.exe" Args "server"
+Start-Process -WindowStyle hidden -FilePath "./lemonade.exe" Args "server"
+Start-Process -WindowStyle hidden -FilePath "lemonade" Args "server"
+cd D:
+Start-Process -WindowStyle hidden -FilePath "lemonade" Args "server"
+lemonade
+which lemonade
+taskkill /IM lemonade /F
+which lemonade
+Start-Process -WindowStyle hidden -FilePath "lemonade" -Args "server"
+topgrade
+Start-Process -WindowStyle hidden -FilePath "lemonade" -Args "server"
+z portable
+cd D:\Portable\
+ls
+git clone https://github.com/ryanoasis/nerd-fonts.git
+scoop list
+git clone https://github.com/ryanoasis/nerd-fonts.git
+z portable
+git clone https://github.com/ryanoasis/nerd-fonts.git
+neofetchl
+neofetch
+z portable
+ls
+cd .\nerd-fonts\
+code .
+./install.ps1 help
+./install.ps1 --help
+./install.ps1 JetbrainsMono
+z nerd
+ls
+nvim .\install.ps1
+scoop list
+topgrade
+Start-Process -WindowStyle hidden -FilePath "lemonade" -Args "server"
+ping 192.168.31.211 -n 10
+ssh 192.168.31.211
+neofetch
+scoop listy
+scoop list
+ipconfig
+topgrade
+ssh 192.168.31.211
+scoop install microsoftedge-dev
+scoop install microsoftedge-canary
+scoop install microsoftedge-canary -s
+scoop uninstall microsoftedge-canary
+scoop cache rm microsoftedge-canary
+scoop install microsoftedge-canary
+scoop install msedge-canary
+scoop config aria2-enabled false
+scoop install microsoftedge-canary
+scoop uninstall microsoftedge-canary
+scoop install msedge-canary
+scoop install microsoft-edge-canary-np
+scoop uninstall microsoft-edge-canary-np
+scoop install edge-portable-canary
+scoop uninstall edge-portable-canary
+scoop list
+scoop status
+sudo scoop uninstall jetBrainsMono-NF -g 
+scoop list
+z nerd
+nvim .\install.ps1
+./install.ps1 JetbrainsMono-NF -WindowsCompatibleOnly
+./install.ps1 JetbrainsMono -WindowsCompatibleOnly -NoLigatures
+./install.ps1 JetbrainsMono -WindowsCompatibleOnly
+z nerd
+ls
+git pull
+ls
+ssh 192.168.31.211
+scoop list
+Start-Process -WindowStyle hidden -FilePath "lemonade" -Args "server"
+scoop install microsoftedge-dev
+scoop uninstall microsoftedge-dev
+sudo scoop uninstall lxgwwenkaimono -g
+ls
+scoop list
+ipfoncifg
+ipconfig
+git clone https://github.com/hhsjsth/helloRust.git
+nvim .\helloRust\
+ls
+cd .\helloRust\
+ls
+git status
+git add .
+git commit -m "main.rs"
+git push
+update
+..
+cd ..
+rm .\helloRust\ -rf
+rm .\helloRust\
+sudo rm .\helloRust\
+explorer.exe .
+ping 192.168.31.211 -n 10
+ping 192.168.31.229
+arp -a
+ping 192.168.31.21
+ping 192.168.31.211
+ping 192.168.31.229
+ssh 192.168.31.229
+ipconfig
+ssh 192.168.31.229
+ipconfig
+Start-Process -WindowStyle hidden -FilePath "lemonade" -Args "server"
+bat C:\Users\gtr\.ssh\id_rsa.pub
+scoop install networktools
+nc
+ncat
+networktools
+scoop uninstall networktools
+ssh gtr@gtr-arch
+git clone git@github.com:hhsjsth/helloRust.git
+git clone git@github.com:microsoft/vscode.git
+explorer.exe .
+git clone git@github.com:microsoft/vscode.git
+ssh gtr@gtr-arch
+git clone .\lemonade.exe
+git clone git@github.com:microsoft/vscode.git
+update
+scoop uninstall gh
+gh
+scoop uninstall github
+scoop list
+scoop uninstall sourcenavigator-ng
+termscp
+scoop list
+which gcc
+which clangd
+scoop uninstall mingw
+ls
+scoop list
+gdu
+scoop list
+scoop list | more
+scoop uninstall bookxnotepro
+cacert
+scoop uninstall capslock-plus
+cpufetch
+gum
+scoop uninstall gum
+helix
+scoop uninstall notable
+scoop uninstall notepadnext
+scoop list | more
+scoop list | less
+speedtest
+tar
+scoop uninstall tor-browser
+which obsidian
+sudo setup.exe –uninstall –system-level –verbose-logging –force-uninstall
+sudo ./setup.exe –uninstall –system-level –verbose-logging –force-uninstall
+sudo setup –uninstall –system-level –verbose-logging –force-uninstall
+cmd
+iperf3 -c
+iperf3 -c 192.168.31.229 
+iperf3 -c 192.168.31.229 -b 10
+iperf3
+iperf3 -c 192.168.31.229 -p 10 -6
+iperf3 -c 192.168.31.229 -p 10
+iperf3 -c 192.168.31.229 
+iperf3 -c 192.168.31.229 -P 10
+iperf3 -c 192.168.31.229
+iperf3 -c 192.168.31.229 -n 30
+iperf3 -c 192.168.31.229 -t 30
+cmd
+scoop install geek
+scoop install geekuninstaller
+z repo
+ls
+rm .\leetcode\
+explorer.exe .
+git clone git@github.com:hhsjsth/leetcode.git
+explorer.exe .
+clang-format
+gcc
+clangd
+which clangd
+scoop install llvm
+clangd-format
+clang-format.exe
+z repo
+git clone git@github.com:hhsjsth/leetcode_cpp.git
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:hhsjsth/leetcode_rust.git
+git config --global --add safe.directory D:/repo
+git init`
+git add README.md`
+git commit -m "first commit"`
+git branch -M main`
+git remote add origin git@github.com:hhsjsth/leetcode_rust.git`
+git push -u origin main
+explorer.exe .
+cd leetcode_rust
+ls
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:hhsjsth/leetcode_rust.git
+git push -u origin main
+ls
+git push -u origin main
+explorer.exe .
+git init
+git echo "# leetcode_rust" >> README.md
+echo "# leetcode_rust" >> README.md
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:hhsjsth/leetcode_rust.git
+git push -u origin main
+scoop list
+update
+scoop statu
+scoop status
+cargo install tetris-rs
+clang-15
+which clang-15
+lgcc
+gc
+gcc
+which gcc
+update
+btm
+cargo install bottom
+scoop uninstall llvm-mingw
+scoop uninstall mingw
+scoop list
+scoop uninstall llvm
+which gcc
+scoop install mingw
+gcc -v
+which gcc
+cargo install bottom
+Start-Process -WindowStyle hidden -FilePath "lemonade" -Args "server"
+cargo install tetris-rs
+cargo install tetris-rs
+ssh gtr@gtr-arch
+git push --force-with-lease origin master
+git push
+git push --force-with-lease origin master
+scoop install libreoffice
+scoop uninstall libreoffice
+scoop install libreoffice-cn
+ping 192.168.31.229
+ls
+la
+ls -a
+ls
+ls -a
+scoop install Notepad--
+cargo list
+cargo --list
+cargo install --list
+cargo install tetris-rs
+Start-Process -WindowStyle hidden -FilePath "lemonade" -Args "server"
+duf
+fud
+duf
+sudo pacman -S archey
+which lemonade
+ls
+update
+scoop uninstall docker
+scoop uninstall coreutils-rs exa 
+scoop uninstall porplayer
+scoop hold potplayer
+scoop status
+scoop update firefox
+upgrade
+rustup
+rustup update
+topgrade
+helix
+helix --help
+hx
+c++
+c
+gcc
+cc
+cc.exe
+topgrade
+g++
+which g++
+hx --grammar build
+btop
+hx --health
+hx
+cargo install exa rust-analyzer
+scoop install rust-analyzer
+hx --help | less
+hx --health | more
+which more
+which less
+hx --health | less
+hx --health
+z my
+ls
+hx helloRust
+hx .\myAhk\
+arp -a
+ping 192.168.31.229
+arp -a
+ping 192.168.31.229
+ssh gtr@gtr-arch
+ssh gtr-arch
+nvim
+git clone https://github.com/LazyVim/starter ./nvim
+nvim
+git clone https://github.com/LazyVim/starter ./nvim
+nvim
+nvim .\helloRust\
+z helloRust
+ls
+nvim .
+python3
+python
+scoop install python
+$env:Http_proxy="http://127.0.0.1:7890";$Env:https_proxy="http://127.0.0.1:7890"
+nvim .
+python venv
+venv
+topgrade
+treesize
+scoop uninstall treesize
+which python
+nvim $home/pip/pip.ini
+mkdir $home/pip/
+nvim $home/pip/pip.ini
+python -m pip install --upgrade
+python -m pip install --upgrade pip
+nvim
+nvim 
+nvim
+ssh gtr-arch
+ssh
+btm
+ssh gtr-arch
+scoop install docker
+c
+docker run hello-world
+docker run --help
+docker run hello-world
+scoop uninstall docker
+systeminfo
+Get-Process
+Get-Process Search lemonade
+Get-Process Search*
+Get-Process lemonade
+lemonade
+lemonade server
+scoop install Delugia =g
+scoop install Delugia -g
+sudo scoop install Delugia -g
+scoop install Delugia-Nerd-Font
+sudo scoop install Delugia-Nerd-Font -g
+lemonade server
+lemonade 
+lemonade server &
+taskkill /IM lemonade /F
+taskkill /IM lemonade server /F
+taskkill /IM "lemonade server" /F
+Get-Process lemonade
+Stop-Process lemonade
+Stop-Process 
+Stop-Process 12246
+Stop-Process 12236
+Get-Process lemonade
+Stop-Process 19516
+nvim
+ssh -v 
+ssh -vv
+ssh -v gtr-arch
+scoop install he3
+scoop list
+cargo install coreutils
+which ln
+ln
+cargo install findutils
+winget upgrade
+winget upgrade --all
+update
+ sudo upgrade
+su
+sudo
+upgrade
+arp -a
+ping gtr-arch
+ping 192.168.31.222
+ssh gtr-arch
+ssh -X gtr-arch
+ssh gtr-arch
+scop list
+scoop list
+ssh gtr-arch
+scoop install delta
+scoop installripgrep-all
+scoop install ripgrep-all
+scoop install ugrep
+pip install -i https://mirrors.ustc.edu.cn/pypi/web/simple pip -U
+pip config set global.index-url https://mirrors.ustc.edu.cn/pypi/web/simple
+python -m pip install numpy sympy matplotlib
+python -m pip install z
+python -m pip install z3
+wget http://jyywiki.cn/OS/2023/build/lect1.ipynb
+python -m pip -v
+python -m pip --version
+python -m pip install jypyter-c-kernel
+python -m pip install jypyter-c++-kernel
+python -m pip3 install jypyter-c++-kernel
+pip --version
+pip install jupyter-c-kernel
+python -m pip install jupyter-c-kernel
+python -m pip install jupyter-cpp-kernel
+python -m pip install jupyter-rust-kernel
+install_c_kernel
+python install_c_kernel
+install_c_kernel
+python D:\scoop\apps\python\current\Scripts\install_c_kernel
+uninstall_c_kernel
+gcc
+which gcc
+g++
+gcc -v
+clangd 
+clangd -v
+clangd --version
+which clangd
+duf
+upgrade
+cd A:
+ls
+cd repo
+ls
+cd ..\myRepo\
+ls
+nvim .\jyy_os\
+cd .\jyy_os\
+ls
+cd .\1_summary\
+ls
+nvim 
+nvim .
+$env:Http_proxy="http://127.0.0.1:7890";$Env:https_proxy="http://127.0.0.1:7890"
+update
+sudo scoop update sara-mono-sc-nerd
+sudo scoop update sarasa-mono-sc-nerd
+sudo scoop update sarasa-mono-sc-nerd -g
+sudo scoop uninstall sarasa-mono-sc-nerd -g
+sudo scoop install sarasa-mono-sc-nerd -g
+sudo scoop uninstall sarasa-mono-sc-nerd -g
+sudo scoop install sarasa-mono-sc-nerd-font -g
+neofetch
+scoop list | pdf
+scoop list | rg pdf
+z helloRust
+cd .git
+ls
+ra
+lf
+ping gtr-arch
+ping baidu.com
+ping gtr-arch
+ping gtr-arch -c 10
+ping -c
+ping -c gtr-arch
+ping --help
+ping -t gtr-arch
+scoop install gping
+gping gtr-arch
+topgrade
+ping -t gtr-arch
+ssh gtr-arch
+git push -f
+git checkout -b temp
+git commit -m "二分查找左闭右开写法二更简单"
+git add .
+git commit -m "二分查找左闭右开写法二更简单"
+git checkout -b master
+git checkout master
+git rebase temp
+git rebase --skip
+git reflog
+git reset --hard 4b6fd8c
+git push -f
+scoop install msvc
+scp
+which scp
+ping gtr-arch -c 10
+ping gtr-arch
+ping gtr-arch -t
+ping -t gtr-arch
+ssh gtr-arch
+scoop uninstall windterm
+scoop install windterm
+ssh gtr@127.0.0.1
+ssh -X gtr-arch
+scoop install filezilla
+scoop install wireshark
+scoop install winscp
+rg 扎克伯格
+rg "face"
+rg "扎克伯格"
+rg "face"
+rg "facebook"
+scoop bucket add v2raya https://github.com/v2rayA/v2raya-scoop
+lsd -t
+scoop bucket add v2raya https://github.com/v2rayA/v2raya-scoop
+upgradd
+upgrade
+scoop install v2raya
+scoop install v2ray-rules-dat
+scoop install v2raya/v2ray-rules-dat
+start-v2raya.cmd
+ping -t gtr-arch
+: 1677319973:0;nvim .zsh_history
+Get-SmbConnection
+sudo Get-SmbConnection
+scoop install networkmanager
+nmtui
+ssh gtr-arch
+v2ray -v
+v2ray --version
+v2ray
+v2ray version
+./v2ray.exe version
+start-v2raya.cmd
+ping baidu.com
+ipconfig
+ping baidu.com
+ping -4 baidu.com
+ssh gtr-arch
+ping baidu.com
+nsloopup
+ping baidu.com
+ipconfig /flushdns
+ping baidu.com
+ipconfig
+ping 
+tracert
+tracert baidu.com
+ping baidu.com
+ssh gtr-arch
+topgrade
+ssh gtr-arch
+ping baidu.com
+ping gtr-arch -t
+ping gtr-arch
+upgrade
+ping gtr-arch
+cpufetch
+ping gtr-arch
+scoop install deepl
+upgrade
+scoop install deepl
+ssh gtr-arch
+python
+cd D:\学习\
+ls
+cd '.\CS61A (SICP)\'
+ls
+cd .\lab00\
+ls
+python ok -q python-basics -u
+z lab
+ls
+python ok
+python ok -q python-basics -u
+z lab
+python ok -q python-basics -u
+open
+& D:/scoop/apps/python/current/python.exe -m pip install -U autopep8
+scoop install ffmpeg
+ffmpeg
+scoop install alist
+alist server
+alias adamin
+alist admin
+topgrade
+scoop install YoudaoDict-portable
+shutdown /h
+shutdown -h
+shutdown 
+ssh gtr-arch
+btm
+ssh gtr-arch
+scoop install ruff
+ruff
+topgrade
+scoop list | rg twinkle
+update
+ssh gtr-arch
+winget upgrade .\lemonade.exe
+winget upgrade
+node
+python -m pip install cpplint
+cpplint
+which cpplint
+ping gtr-arch
+ping baidu.com
+ping gtr-arch
+git push -f
+ping gtr-arch
+202020
+ssh gtr-arch
+gcc
+which gcc
+cpplint
+ & 'c:\Users\gtr\.vscode\extensions\ms-vscode.cpptools-1.14.4-win32-x64\debugAdapters\bin\WindowsDebugLauncher.exe' '--stdin=Microsoft-MIEngine-In-p0qkmiyz.phj' '--stdout=Microsoft-MIEngine-Out-rke310tr.p0a' '--stderr=Microsoft-MIEngine-Error-h04wdpdt.xjh' '--pid=Microsoft-MIEngine-Pid-og0i1dip.dxn' '--dbgExe=D:/scoop/apps/mingw/current/bin/gdb.exe' '--interpreter=mi' 
+ & 'c:\Users\gtr\.vscode\extensions\ms-vscode.cpptools-1.14.4-win32-x64\debugAdapters\bin\WindowsDebugLauncher.exe' '--stdin=Microsoft-MIEngine-In-tfroqdkd.yuc' '--stdout=Microsoft-MIEngine-Out-4oyajn1r.uaz' '--stderr=Microsoft-MIEngine-Error-o0xdjpeb.mmq' '--pid=Microsoft-MIEngine-Pid-ykavqwoi.xea' '--dbgExe=D:/scoop/apps/mingw/current/bin/gdb.exe' '--interpreter=mi' 
+im-select
+im-select 2052
+im-select 1033
+im-select 2052
+ping gtr-arch
+topgrade
+update
+upgrade
+scoop uninstall ccleaner
+upgrade
+ssh gtr-arch
+winget upgrade
+update
+winget upgrade
+winget upgrade --all
+update
+upgrade
+scoop uninstall YoudaoDict-portable
+taskkill /IM "youdao" /F
+scoop uninstall YoudaoDict-portable
+taskkill /IM "YoudaoDict" /F
+taskkill /IM "YoudaoDict.exe" /F
+taskkill /IM "YodaoDict.exe" /F
+scoop uninstall YoudaoDict-portable
+scoop install YoudaoDict-portable
+scoop uninstall YoudaoDict-portable
+scoop install YoudaoDict-portable
+scoop uninstall YoudaoDict-portable
+gping gtr-arch
+ssh gtr-arch
+scoop uninstall mingw
+scoop uninstall llvm
+gcc
+scoop install llvm-mingw
+gcc
+which gcc
+gcc
+."D:/codeLearn/cpp/cmaketest/build/cmaketest.exe"
+gdb
+which gdb
+lldb
+taskkill /IM dual-key-remap.exe /F && taskkill /IM AutoHotkey.exe /F
+ & 'c:\Users\gtr\.vscode\extensions\ms-vscode.cpptools-1.14.4-win32-x64\debugAdapters\bin\WindowsDebugLauncher.exe' '--stdin=Microsoft-MIEngine-In-zdhody1k.rku' '--stdout=Microsoft-MIEngine-Out-1moqkcgd.0zb' '--stderr=Microsoft-MIEngine-Error-qoxspuep.lu0' '--pid=Microsoft-MIEngine-Pid-scddclex.x2r' '--dbgExe=D:\scoop\apps\llvm-mingw\current\bin\lldb.exe' '--interpreter=mi' 
+ & 'c:\Users\gtr\.vscode\extensions\ms-vscode.cpptools-1.14.4-win32-x64\debugAdapters\bin\WindowsDebugLauncher.exe' '--stdin=Microsoft-MIEngine-In-fjqyrdni.rvz' '--stdout=Microsoft-MIEngine-Out-emxgncml.ahq' '--stderr=Microsoft-MIEngine-Error-ypc2ondg.cfi' '--pid=Microsoft-MIEngine-Pid-m0e24pop.fsn' '--dbgExe=D:\scoop\apps\llvm-mingw\current\bin\lldb.exe' '--interpreter=mi' 
+scoop install gdb
+gdb
+ & 'c:\Users\gtr\.vscode\extensions\ms-vscode.cpptools-1.14.4-win32-x64\debugAdapters\bin\WindowsDebugLauncher.exe' '--stdin=Microsoft-MIEngine-In-ck01aomu.o4c' '--stdout=Microsoft-MIEngine-Out-jbtk3sni.pva' '--stderr=Microsoft-MIEngine-Error-bpjhv04z.jun' '--pid=Microsoft-MIEngine-Pid-zcmomfp3.q2m' '--dbgExe=D:\scoop\shims\gdb.exe' '--interpreter=mi' 
+ & 'c:\Users\gtr\.vscode\extensions\ms-vscode.cpptools-1.14.4-win32-x64\debugAdapters\bin\WindowsDebugLauncher.exe' '--stdin=Microsoft-MIEngine-In-d0burl3k.ovr' '--stdout=Microsoft-MIEngine-Out-oq0ldtrz.gn2' '--stderr=Microsoft-MIEngine-Error-20licvma.w41' '--pid=Microsoft-MIEngine-Pid-qlx0ypor.jmw' '--dbgExe=D:\scoop\shims\gdb.exe' '--interpreter=mi' 
+scoop uninstall gdb mingw-llvm
+scoop uninstall gdb llvm-mingw
+scoop install mingw-winlibs-llvm-ucrt.json
+scoop install mingw-winlibs-llvm-ucrt
+which gcc
+gcc -v
+clang -v
+clangd -v
+clangd --version
+ & 'c:\Users\gtr\.vscode\extensions\ms-vscode.cpptools-1.14.4-win32-x64\debugAdapters\bin\WindowsDebugLauncher.exe' '--stdin=Microsoft-MIEngine-In-aj54z23l.jg3' '--stdout=Microsoft-MIEngine-Out-lqaoyugy.zks' '--stderr=Microsoft-MIEngine-Error-l2p3j2zk.msq' '--pid=Microsoft-MIEngine-Pid-fv1zelwn.3c5' '--dbgExe=D:/scoop/apps/mingw-winlibs-llvm-ucrt/current/bin/gdb.exe' '--interpreter=mi' 
+ & 'c:\Users\gtr\.vscode\extensions\ms-vscode.cpptools-1.14.4-win32-x64\debugAdapters\bin\WindowsDebugLauncher.exe' '--stdin=Microsoft-MIEngine-In-tizcmluy.oel' '--stdout=Microsoft-MIEngine-Out-fndxyjpq.hbg' '--stderr=Microsoft-MIEngine-Error-pth2mrvr.3fx' '--pid=Microsoft-MIEngine-Pid-baf5gd0k.i3h' '--dbgExe=D:/scoop/apps/mingw-winlibs-llvm-ucrt/current/bin/gdb.exe' '--interpreter=mi' 
+."D:/codeLearn/cpp/cmaketest/build/cmaketest.exe"
+ & 'c:\Users\gtr\.vscode\extensions\ms-vscode.cpptools-1.14.4-win32-x64\debugAdapters\bin\WindowsDebugLauncher.exe' '--stdin=Microsoft-MIEngine-In-1oxfu3ff.y1n' '--stdout=Microsoft-MIEngine-Out-y4dnapeq.hnm' '--stderr=Microsoft-MIEngine-Error-hrtv2szc.kxo' '--pid=Microsoft-MIEngine-Pid-51fidrze.0sa' '--dbgExe=D:/scoop/apps/mingw-winlibs-llvm-ucrt/current/bin/gdb.exe' '--interpreter=mi' 
+ & 'c:\Users\gtr\.vscode\extensions\ms-vscode.cpptools-1.14.4-win32-x64\debugAdapters\bin\WindowsDebugLauncher.exe' '--stdin=Microsoft-MIEngine-In-drnae4wy.dju' '--stdout=Microsoft-MIEngine-Out-rdbeo423.h24' '--stderr=Microsoft-MIEngine-Error-ttirf1c0.ou0' '--pid=Microsoft-MIEngine-Pid-wumkvyqu.12t' '--dbgExe=D:/scoop/apps/mingw-winlibs-llvm-ucrt/current/bin/gdb.exe' '--interpreter=mi' 
+."D:/codeLearn/cpp/cmaketest/build/cmaketest.exe"
+cargo run ; if ($?) { echo main.rs > /dev/null }
+cargo run "d:\myRepo\helloRust\src\main.rs"
+ & 'c:\Users\gtr\.vscode\extensions\ms-vscode.cpptools-1.14.4-win32-x64\debugAdapters\bin\WindowsDebugLauncher.exe' '--stdin=Microsoft-MIEngine-In-fkwryppb.nzu' '--stdout=Microsoft-MIEngine-Out-fnrckl03.rqw' '--stderr=Microsoft-MIEngine-Error-pkxjddtb.uo5' '--pid=Microsoft-MIEngine-Pid-iymns4om.pif' '--dbgExe=D:/scoop/apps/mingw-winlibs-llvm-ucrt/current/bin/gdb.exe' '--interpreter=mi' 
+ & 'c:\Users\gtr\.vscode\extensions\ms-vscode.cpptools-1.14.4-win32-x64\debugAdapters\bin\WindowsDebugLauncher.exe' '--stdin=Microsoft-MIEngine-In-bnjmsi02.iu3' '--stdout=Microsoft-MIEngine-Out-ce1j0lst.3xl' '--stderr=Microsoft-MIEngine-Error-0g1ejqjx.lhp' '--pid=Microsoft-MIEngine-Pid-3ch3255y.osf' '--dbgExe=D:/scoop/apps/mingw-winlibs-llvm-ucrt/current/bin/gdb.exe' '--interpreter=mi' 
+z repo
+ls
+z code
+ls
+cd rust
+ls
+rm .\helloRust\ -rf
+rm .\helloRust\ 
+explorer.exe .
+cargo new LeetCodeTest
+ & 'c:\Users\gtr\.vscode\extensions\ms-vscode.cpptools-1.14.4-win32-x64\debugAdapters\bin\WindowsDebugLauncher.exe' '--stdin=Microsoft-MIEngine-In-qr3bkb0q.slo' '--stdout=Microsoft-MIEngine-Out-3yuznuw3.q1m' '--stderr=Microsoft-MIEngine-Error-okzybcsn.1pt' '--pid=Microsoft-MIEngine-Pid-ojmndblj.1ps' '--dbgExe=D:/scoop/apps/mingw-winlibs-llvm-ucrt/current/bin/gdb.exe' '--interpreter=mi' 
+."D:/codeLearn/cpp/cmaketest/build/cmaketest.exe"
+ & 'c:\Users\gtr\.vscode\extensions\ms-vscode.cpptools-1.14.4-win32-x64\debugAdapters\bin\WindowsDebugLauncher.exe' '--stdin=Microsoft-MIEngine-In-qbyglwy0.31j' '--stdout=Microsoft-MIEngine-Out-pznyc5fi.ls2' '--stderr=Microsoft-MIEngine-Error-5vbhlsva.vxn' '--pid=Microsoft-MIEngine-Pid-fvcm3wvo.ags' '--dbgExe=D:/scoop/apps/mingw-winlibs-llvm-ucrt/current/bin/gdb.exe' '--interpreter=mi' 
+ & 'c:\Users\gtr\.vscode\extensions\ms-vscode.cpptools-1.14.4-win32-x64\debugAdapters\bin\WindowsDebugLauncher.exe' '--stdin=Microsoft-MIEngine-In-yu5xyx30.wnn' '--stdout=Microsoft-MIEngine-Out-yqrmsec5.qpz' '--stderr=Microsoft-MIEngine-Error-kmlelyjb.3qr' '--pid=Microsoft-MIEngine-Pid-esottpai.g3l' '--dbgExe=D:/scoop/apps/mingw-winlibs-llvm-ucrt/current/bin/gdb.exe' '--interpreter=mi' 
+ & 'c:\Users\gtr\.vscode\extensions\ms-vscode.cpptools-1.14.4-win32-x64\debugAdapters\bin\WindowsDebugLauncher.exe' '--stdin=Microsoft-MIEngine-In-scm2mvqt.tmc' '--stdout=Microsoft-MIEngine-Out-bphh3ybo.fre' '--stderr=Microsoft-MIEngine-Error-jp5lpmtk.xep' '--pid=Microsoft-MIEngine-Pid-ghar014p.mmf' '--dbgExe=D:/scoop/apps/mingw-winlibs-llvm-ucrt/current/bin/gdb.exe' '--interpreter=mi' 
+ & 'c:\Users\gtr\.vscode\extensions\ms-vscode.cpptools-1.14.4-win32-x64\debugAdapters\bin\WindowsDebugLauncher.exe' '--stdin=Microsoft-MIEngine-In-nub1l20k.wir' '--stdout=Microsoft-MIEngine-Out-gnpz3u5n.h1i' '--stderr=Microsoft-MIEngine-Error-0bfuwdos.mxv' '--pid=Microsoft-MIEngine-Pid-4blznaoz.45d' '--dbgExe=D:/scoop/apps/mingw-winlibs-llvm-ucrt/current/bin/gdb.exe' '--interpreter=mi' 
+ & 'c:\Users\gtr\.vscode\extensions\ms-vscode.cpptools-1.14.4-win32-x64\debugAdapters\bin\WindowsDebugLauncher.exe' '--stdin=Microsoft-MIEngine-In-qhefcn1t.2ax' '--stdout=Microsoft-MIEngine-Out-xuegwhsa.pqr' '--stderr=Microsoft-MIEngine-Error-uqkh2zjz.ewl' '--pid=Microsoft-MIEngine-Pid-hcbma45d.5qv' '--dbgExe=D:/scoop/apps/mingw-winlibs-llvm-ucrt/current/bin/gdb.exe' '--interpreter=mi' 
+ & 'c:\Users\gtr\.vscode\extensions\ms-vscode.cpptools-1.14.4-win32-x64\debugAdapters\bin\WindowsDebugLauncher.exe' '--stdin=Microsoft-MIEngine-In-5soxltbw.mah' '--stdout=Microsoft-MIEngine-Out-a10ou3hg.3tk' '--stderr=Microsoft-MIEngine-Error-u0v0hvhm.wwf' '--pid=Microsoft-MIEngine-Pid-ol2p2a3n.sav' '--dbgExe=D:/scoop/apps/mingw-winlibs-llvm-ucrt/current/bin/gdb.exe' '--interpreter=mi' 
+upgrade
+scoop list
+zotero
+scoop uninstall v2ray v2ray-rules-dat v2raya
+scoop list
+scoop uninstall rust-analyzer
+scoop list
+ruff
+ & 'c:\Users\gtr\.vscode\extensions\ms-vscode.cpptools-1.14.4-win32-x64\debugAdapters\bin\WindowsDebugLauncher.exe' '--stdin=Microsoft-MIEngine-In-mn4rkj2x.mwd' '--stdout=Microsoft-MIEngine-Out-xx5k3oub.0if' '--stderr=Microsoft-MIEngine-Error-5hzjpm1k.r4v' '--pid=Microsoft-MIEngine-Pid-tw5jafxh.fxn' '--dbgExe=D:/scoop/apps/mingw-winlibs-llvm-ucrt/current/bin/gdb.exe' '--interpreter=mi' 
+cargo run "d:\myRepo\helloRust\src\main.rs"
+ping gtr-arch
+scoop install xmake
+clang
+which clangd
+which clang
+xmake
+xmake run xmaketest
+gcc
+which gcc
+code tunnel
+pwd
+code tunnel
+taskkill /IM lemonade.exe /F
+clangd --version
+clangd --version
+gcc
+$env:path
+which clangd
+pwsh --version
+$env:path
+clangd --version
+$env:path
+upgrade
+code tunnel
+code tunnel service install
+ping gtr-arch
+code tunnel service uninstall
+code tunnel service install
+code tunnel service uninstall
+upgrade
+nu
+upgrade
+ssh gtr-arch
+$(fzf)
+ssh gtr-arch
+ping gtr-arch -t
+ping baidu.com
+ping baidu.com -t
+ping gtr-arch -t
+iperf3 -c gtr-arch -t 30
+iperf3 -s
+ping gtr-arch -t
+cargo run "d:\repo\leetcode_rust\1.两数之和.rs"
+cargo run "d:\myRepo\helloRust\src\main.rs"
+code $PROFILE`
+
+scoop install chezmoi
+chezomi
+chezmoi
+ssh gtr-arch
+scoop install msys2
+美术与设计
+msys2
+set "LOGINSHELL=zsh"
+msys2
+scoop uninstall msys2
+ping gtr-arch -t
+chezmoi
+chezmoi init --apply git@github.com:hhsjsth/windotfiles.git
+chezmoi diff
+ls
+which lemonade
+chezmoi
+chezmoi add $(fzf)
+chezmoi status
+chezmoi add $(fzf)
+ls
+chezmoi diff
+nvim .\.npmrc
+chezmoi diff
+nvim .\.npmrc
+chezmoi diff
+chezmoi add $(fzf)
+chezmoi help
+chezmoi status
+chezmoi add $(fzf)
